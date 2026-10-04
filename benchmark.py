@@ -604,7 +604,11 @@ def score_result(result, expected):
         accepted = {row["reason"] for row in rows if row["lane"] != "human_review"}
         pairs = {(row["reason"], row["size_direction"]) for row in parsed}
         held = [row for row in rows if row["lane"] == "human_review"]
-        request_failed = reference["scope"] == "model" and not parsed
+        request_failed = (
+            reference["scope"] in {"model", "model_background"}
+            and reference["expected_in_window"]
+            and not parsed
+        )
         route = (
             "not_in_window"
             if not rows
@@ -657,7 +661,7 @@ def score_result(result, expected):
             }
         )
     compared = pd.DataFrame(comparisons)
-    semantic = compared.loc[compared["scope"].eq("model")].copy()
+    semantic = compared.loc[compared["scope"].eq("model") & compared["expected_in_window"]].copy()
     label_metrics = []
     for reason in Reason:
         true_positive = false_positive = false_negative = expected_count = actual_count = 0
@@ -698,6 +702,9 @@ def score_result(result, expected):
     code = compared.loc[compared["scope"].isin(["dropdown", "input_guard", "date_filter"])]
     summary = {
         "model_cases": len(semantic),
+        "model_cases_out_of_window": int(
+            (compared["scope"].eq("model") & ~compared["expected_in_window"]).sum()
+        ),
         "raw_label_exact": int(semantic["label_exact"].sum()),
         "raw_direction_exact": int(semantic["direction_exact"].sum()),
         "clear_cases": len(clear),
@@ -790,8 +797,45 @@ def markdown_table(frame):
     )
 
 
-def write_scores(folder=DATA):
-    report = folder / "evaluation"
+def score_ui_run(run_report, folder=DATA):
+    source_path = Path(run_report)
+    source_bytes = source_path.read_bytes()
+    result = json.loads(source_bytes)
+    options = result["options"]
+    dataset = load_csv_bundle(str(folder / "inputs.zip"))
+    prepared = prepare(
+        dataset, **{key: options[key] for key in ("as_of", "period_days", "maturity_days")}
+    )
+    records = {record["record_id"]: record for record in prepared["records"]}
+    if {row["record_id"] for row in result["rows"]} != set(records):
+        raise ValueError("Saved UI records do not match the supplied dataset and delivery windows.")
+    for row in result["rows"]:
+        if any(
+            row[key] != records[row["record_id"]][key]
+            for key in ("text", "group_id", "source_type", "period")
+        ):
+            raise ValueError(
+                "Saved UI feedback differs from the supplied dataset; refusing mismatched scoring."
+            )
+    report = folder / "evaluation" / source_path.stem
+    if (report / "actual_run.json").exists():
+        raise ValueError("A scored UI run already exists; refusing to replace it.")
+    report.mkdir(parents=True, exist_ok=True)
+    result.update(
+        benchmark_options=options,
+        input_sha256=hashlib.sha256((folder / "inputs.zip").read_bytes()).hexdigest(),
+        reference_sha256=hashlib.sha256((folder / "expected_results.csv").read_bytes()).hexdigest(),
+        source_run_sha256=hashlib.sha256(source_bytes).hexdigest(),
+        evaluation_origin="saved UI run; no new model calls",
+    )
+    (report / "actual_run.json").write_text(
+        json.dumps(result, indent=2, ensure_ascii=False, allow_nan=False), encoding="utf-8"
+    )
+    return write_scores(folder, report=report)
+
+
+def write_scores(folder=DATA, report=None):
+    report = Path(report) if report is not None else folder / "evaluation"
     result = json.loads((report / "actual_run.json").read_text(encoding="utf-8"))
     if hashlib.sha256((folder / "inputs.zip").read_bytes()).hexdigest() != result["input_sha256"]:
         raise ValueError(
@@ -806,8 +850,15 @@ def write_scores(folder=DATA):
             "Expected labels have changed since the single evaluation; refusing mismatched scoring."
         )
     expected = pd.read_csv(folder / "expected_results.csv", keep_default_na=False)
+    dataset = load_csv_bundle(str(folder / "inputs.zip"))
+    options = result["benchmark_options"]
+    prepared = prepare(
+        dataset, **{key: options[key] for key in ("as_of", "period_days", "maturity_days")}
+    )
+    eligible_ids = {record["record_id"] for record in prepared["records"]}
+    expected["expected_in_window"] = expected["record_id"].isin(eligible_ids)
     compared, labels, matrix, routes, slices, summary = score_result(result, expected)
-    groups = compare_groups(result, expected, load_csv_bundle(str(folder / "inputs.zip")))
+    groups = compare_groups(result, expected, dataset)
     groups.to_csv(report / "group_expected_vs_actual.csv", index=False)
     calls = pd.DataFrame(result["calls"])
     calls.to_csv(report / "call_costs.csv", index=False)
@@ -835,10 +886,19 @@ def write_scores(folder=DATA):
         report / "clear_cases_sent_to_review.csv", index=False
     )
     compared.loc[
-        compared["scope"].eq("model") & (~compared["label_exact"] | ~compared["direction_exact"])
+        compared["scope"].eq("model")
+        & compared["expected_in_window"]
+        & (~compared["label_exact"] | ~compared["direction_exact"])
     ].to_csv(report / "classification_errors.csv", index=False)
     (report / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
-    text = "# Single-Run Synthetic Evaluation\n\nModel-generated reference labels are provisional, not certified human truth. Expected labels were kept outside input ZIPs and were not sent to the classifier. Background dropdown rows are excluded from model quality metrics. No classifier prompt was tuned after this run.\n\n"
+    text = "# Single-Run Synthetic Evaluation\n\nModel-generated reference labels are provisional, not certified human truth. Expected labels were kept outside input ZIPs and were not sent to the classifier. Copied background cases and dropdown rows are excluded from distinct model quality metrics; out-of-window anchors are excluded rather than counted as classifier failures. No classifier prompt was tuned after this run.\n\n"
+    text += (
+        "## Run Settings\n\n"
+        + markdown_table(
+            pd.DataFrame([options]).T.reset_index().set_axis(["Setting", "Value"], axis=1)
+        )
+        + "\n\n"
+    )
     text += "## Summary\n\n" + markdown_table(
         pd.DataFrame([summary]).T.reset_index().set_axis(["Measure", "Value"], axis=1)
     )
@@ -855,7 +915,7 @@ def write_scores(folder=DATA):
         + markdown_table(matrix.reset_index())
     )
     text += "\n\n## Language and Certainty\n\n" + markdown_table(slices)
-    semantic = compared.loc[compared["scope"].eq("model")]
+    semantic = compared.loc[compared["scope"].eq("model") & compared["expected_in_window"]]
     misses = semantic.loc[
         ~semantic["label_exact"], ["case_id", "language", "missing_labels", "extra_labels"]
     ].head(10)
@@ -894,10 +954,8 @@ def write_scores(folder=DATA):
         )
     )
     text += "\n\n## Calls, Cost and Writing Failures\n\n" + markdown_table(usage.round(6))
-    text += (
-        "\n\nThe total combines provider-reported classification usage and reserved estimates for failed writing requests, not an invoice. All 180 classification requests produced schema-valid responses. The brief and two size-note calls failed and were visibly withheld. No approved or published notes exist. Only generic failure messages were retained, so transport/provider/parser root causes cannot be determined from this run. No retry or second paid run was made.\n\n"
-        + "\n".join(f"- {message}" for message in result["messages"])
-    )
+    text += f"\n\nCost combines provider usage where available with labelled reservations otherwise; it is not an invoice. Brief valid: {summary['brief_valid']}. Size-note drafts: {summary['size_note_drafts']}; pending approval: {summary['size_note_pending']}. Configured maximum note calls: {options['max_notes']}. Zero requested drafts are disabled, not failed. No output is automatically published. Safe writer diagnostics remain in the saved run; older generic failures cannot be retrospectively diagnosed. Scoring makes no model calls.\n\n"
+    text += "\n".join(f"- {message}" for message in result["messages"])
     bad_inputs = pd.read_csv(folder / "input_validation_results.csv", keep_default_na=False)
     text += (
         "\n\n## Malformed Inputs\n\nEvery invalid ZIP was checked both at the input adapter and at the UI boundary. None was inserted into Postgres.\n\n"
@@ -905,7 +963,7 @@ def write_scores(folder=DATA):
             bad_inputs[["case_id", "expected_error_contains", "actual_error", "passed"]]
         )
     )
-    text += "\n\n## Limits\n\nLabels were generated by a separate agent, not certified by Neha. Direction exact-match distinguishes `none` from `unclear`, even where both are allowed by routing; inspect individual claims before treating every mismatch as a business error. Examples C031/C033 are stronger problems: overly long sleeves/hem were accepted as `too_small`. Feedback is concentrated in the current cohort; the previous delivery cohort is an exclusion/comparison control, not a realistic historical trend. Deterministic dropdown rows are deliberately numerous to create sample-supported groups, not to inflate model accuracy.\n"
+    text += "\n\n## Limits\n\nLabels were generated by a separate agent, not certified by Neha. Direction exact-match distinguishes `none` from `unclear`, even where both are allowed by routing; inspect individual claims before treating every mismatch as a business error. Repeated synthetic background comments and constructed delivery cohorts are controls, not independent examples or realistic historical trends. Dropdown rows and copied model-background cases never inflate distinct-case accuracy. Results apply to the recorded options and in-window cases, not an assumed 28-day benchmark.\n"
     text += "\n\n## Next Decision\n\nInspect disputed annotations, missing/extra labels, direction mismatches and clear cases sent to review before deciding on prompt changes. This small constructed set is not a production accuracy estimate.\n"
     (report / "evaluation_report.md").write_text(text, encoding="utf-8")
     return summary
@@ -1057,7 +1115,16 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "action",
-        choices=["build", "load", "verify-db", "validate", "evaluate", "score", "diagnose-writer"],
+        choices=[
+            "build",
+            "load",
+            "verify-db",
+            "validate",
+            "evaluate",
+            "score",
+            "score-ui",
+            "diagnose-writer",
+        ],
     )
     parser.add_argument(
         "--run-report", type=Path, default=DATA / "evaluation" / "ui_run_2026-10-04.json"
@@ -1078,6 +1145,8 @@ def main():
         result = diagnose_writer(
             args.run_report, folder=args.data_dir, budget_inr=args.budget_inr, kind=args.writer_kind
         )
+    elif args.action == "score-ui":
+        result = score_ui_run(args.run_report, args.data_dir)
     elif args.action == "validate":
         checks = check_bad_inputs(args.data_dir)
         result = {"bad_inputs": len(checks), "passed": int(checks["passed"].sum())}

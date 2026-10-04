@@ -17,3 +17,4 @@ __pycache__/
 !data/realistic_other/inputs.zip
 !data/realistic_other/manifest.json
 !data/realistic_other/bad_inputs/*.zip
+!data/realistic_other/evaluation/ui_run_20261004/actual_run.json

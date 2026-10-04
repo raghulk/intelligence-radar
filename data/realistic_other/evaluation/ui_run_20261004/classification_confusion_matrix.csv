@@ -1,0 +1,13 @@
+primary_expected,changed_mind,colour_or_look_mismatch,damaged_in_transit,delivery_delay,fabric_feel,fit_length_or_shape,fit_too_large,fit_too_small,human_review,no_fit_complaint,quality_defect,wrong_or_missing_item
+changed_mind,11,2,0,0,0,0,0,0,1,1,0,0
+colour_or_look_mismatch,0,13,0,0,0,0,0,0,1,0,0,0
+damaged_in_transit,0,0,13,0,0,0,0,0,0,0,1,0
+delivery_delay,1,0,0,12,0,0,0,0,1,0,0,0
+fabric_feel,0,0,0,0,4,1,0,0,0,0,8,0
+fit_length_or_shape,0,0,0,0,0,13,1,1,0,0,0,0
+fit_too_large,0,0,0,0,0,0,15,1,0,0,0,0
+fit_too_small,0,0,0,0,0,3,0,14,0,0,0,0
+human_review,1,0,0,2,0,0,0,0,10,5,0,0
+no_fit_complaint,0,0,0,0,0,0,0,0,0,12,0,0
+quality_defect,0,0,1,0,0,0,0,0,0,0,15,0
+wrong_or_missing_item,0,0,0,0,0,0,0,0,0,0,0,16

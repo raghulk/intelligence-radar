@@ -16,10 +16,12 @@ For a demonstration, use [the synthetic bundle](../data/realistic_other/inputs.z
 
 1. Open the app and choose **Upload data**.
 2. Upload the synthetic bundle, then select **Load data**. Wait for "Data validated. Ready to run."
-3. Set **Report date (UTC)** to `2026-10-04`, **Days in each delivery group** to `28`, and **Days to wait for returns** to `14`.
-4. Check **Delivery dates included**: latest 23 August-19 September 2026; previous 26 July-22 August. Deliveries on or after 20 September are excluded.
+3. To reproduce the latest measured run, set **Report date (UTC)** to `2026-10-04`, **Days in each delivery group** to `18`, and **Days to wait for returns** to `14`. The UI's default group length is 28.
+4. Check **Delivery dates included**: latest 2 September-19 September 2026; previous 15 August-1 September. Deliveries on or after 20 September are excluded.
 5. Leave the minimum at 30 and spending limit at INR 25. For optional notes, expand **Optional: recommendations and spending limit** and set **Size-note drafts per run** to `2`. Leaving it at `0` generates the brief only.
-6. Select **Generate weekly brief**. Reading progress, brief writing and optional note stages can take several minutes. This dataset needs about 691 separate feedback requests, plus writers; results appear after processing finishes.
+6. Select **Generate weekly brief**. Reading progress, brief writing and optional note stages can take several minutes. The measured 18-day run made 610 feedback requests; 28-day groups need about 691, plus writers. Results appear after processing finishes.
+
+The captured evaluation used concurrency 16 and zero requested drafts. Enabling two drafts is a separate optional workflow, not an exact replay of that evaluation. Setting drafts to 0 makes no size-note request; a deferred-group warning does not mean generation failed.
 
 The synthetic profile has 5,000 physical items, 1,090 returns and 97 reviews. Its 55.05% Other share is a stress scenario, not a revised client statistic; the client brief states 44%.
 
@@ -76,6 +78,8 @@ Do not reduce sample or confidence requirements solely to obtain a draft. Budget
 
 ## Current Evidence and Limits
 
-The data is synthetic. The original benchmark matched 128 of 180 raw label sets exactly; it is not certified for unsupervised vendor decisions. A live brief and an eligible size note have been checked separately. The newer 55%-Other profile has not yet received a complete measured run.
+The data is synthetic. The [latest 55%-Other evaluation](../data/realistic_other/evaluation/ui_run_20261004/evaluation_report.md) matched 127 of 180 raw label sets exactly (70.6%), with 16 clear-reference cases containing review-held claims. It considered 940 comments and produced a valid brief at INR 4.398. Notes were disabled in that run; an eligible live note was verified separately after fixing quote selection. Results are not certified for unsupervised vendor decisions.
+
+The earlier 128/180 benchmark remains available for comparison; neither score is a production accuracy guarantee. A public Hugging Face Space needs no reviewer invitation. If app login is enabled to protect provider spending, reviewers also need the app credentials shared securely by the owner.
 
 Before real use, review a random sample with developers, agree the return waiting period and check whether flagged groups lead to useful vendor actions. Return reduction, production integrations and persistent review history are not established by this MVP.

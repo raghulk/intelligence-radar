@@ -4,7 +4,7 @@ colorFrom: green
 colorTo: gray
 sdk: gradio
 sdk_version: 6.29.1
-python_version: '3.11'
+python_version: '3.12.12'
 app_file: app.py
 pinned: false
 ---
@@ -48,9 +48,9 @@ Open **http://localhost:7860**. If occupied, use `PORT=7862 uv run --locked pyth
 
 Upload [the synthetic demo bundle](data/realistic_other/inputs.zip). It contains exactly five root CSVs: vendors, products, order_items, returns and reviews. Column contracts are in [schema.sql](schema.sql); the app also downloads an empty CSV template. Each order-item row is one physical item. Reviews support findings but never count as returns. The app can alternatively read Postgres using a read-only `DATABASE_URL`.
 
-For the bundled demo, set report date **2026-10-04**, delivery groups **28 days** and waiting period **14 days**. The waiting period is an assumption, not a confirmed client policy. Inputs are synthetic: 5,000 physical items, 1,090 returns and 97 reviews; **600 returns are Other (55.05%)**. This stress profile exceeds the client's stated 44%.
+To reproduce the latest measured run, set report date **2026-10-04**, delivery groups **18 days** and waiting period **14 days**. The UI defaults to 28-day groups; waiting time is an assumption, not a confirmed client policy. Inputs are synthetic: 5,000 physical items, 1,090 returns and 97 reviews; **600 returns are Other (55.05%)**. This stress profile exceeds the client's stated 44%.
 
-The [separate expected results](data/realistic_other/expected_results.csv) must never be uploaded as input. A fresh run makes about **691 classifier requests** plus writers, so allow several minutes and watch progress. This profile has not yet been evaluated end to end; the original benchmark remains frozen.
+The [separate expected results](data/realistic_other/expected_results.csv) must never be uploaded as input. The captured 18-day run made **610 classifier requests and one brief call**; the default 28-day profile needs about 691 classifier requests. Allow several minutes and watch progress. Both measured runs are retained separately.
 
 ## Models and Safety
 
@@ -85,8 +85,12 @@ uv run --locked pytest -q
 uv run --locked ruff check .
 ```
 
-Offline tests use injected model runnables, not paid calls. The [original evaluation](data/evaluation/evaluation_report.md) reports **128/180 exact raw labels (71.1%)**, including English, Hinglish and Hindi cases; this is provisional synthetic evidence, not production accuracy. Its historical writer failures remain recorded.
+Offline tests use injected model runnables, not paid calls. The [latest evaluation](data/realistic_other/evaluation/ui_run_20261004/evaluation_report.md) reports **127/180 exact raw labels (70.6%)**, **116/162 clear accepted exact labels**, 16 clear cases with review-held claims and zero distinct-case request failures. All 496 code/date controls and 68 reference-derived group flags match. These are provisional synthetic results, not certified production accuracy.
+
+The run considered **940 comments**, with 921 containing usable labels and 83 containing review-held claims; those sets overlap. It produced a valid five-finding brief at **INR 4.3976928 provider usage**. Its settings were 18-day groups, 14-day maturity, 30 minimum samples, concurrency 16, INR 25 budget and **zero size-note drafts**. Two flagged groups were deferred because notes were disabled, not because a writer failed. Scoring reused the saved export without model calls.
+
+The [original evaluation](data/evaluation/evaluation_report.md), with 128/180 raw labels and historical writer failures, remains unchanged. Copied model-background cases do not inflate either distinct-case score.
 
 Separate live replays verified a five-finding brief and, after correcting conflicting quote selection, an eligible size note: **confidence 0.82, INR 0.0621168**, with no reclassification. These are not a new benchmark.
 
-The repository includes the [discovery note](docs/discovery-note.md), [two-page-target build note](docs/build-note.md), developer guide and user guide. **Hugging Face deployment is pending; there is no verified public URL yet.** The [deployment checklist](docs/developer-guide.md#hugging-face-deployment) lists account eligibility, access and secrets required to complete that deliverable.
+The repository includes the [discovery note](docs/discovery-note.md), [two-page-target build note](docs/build-note.md), developer guide and user guide. Public Space [raghulkrishnan/intelligence-radar](https://huggingface.co/spaces/raghulkrishnan/intelligence-radar) has been created on free ZeroGPU; deployment verification is in progress. See the [deployment checklist](docs/developer-guide.md#hugging-face-deployment) for access, secrets and operating safeguards.

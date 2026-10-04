@@ -1046,6 +1046,9 @@ def test_benchmark_multilabel_and_review_scoring():
                 ),
             }
         )
+    references.append(
+        {**references[0], "record_id": "review:4", "case_id": "4", "expected_in_window": False}
+    )
     rows = [
         {
             "record_id": "review:1",
@@ -1088,7 +1091,58 @@ def test_benchmark_multilabel_and_review_scoring():
         {"rows": rows, "cost_inr": 0.1, "brief": {}, "notes": []}, pd.DataFrame(references)
     )
     assert summary["raw_label_exact"] == 2
+    assert summary["model_cases"] == 3
+    assert summary["model_cases_out_of_window"] == 1
+    assert summary["request_failures"] == 0
     assert summary["clear_cases_with_review"] == 1
     assert summary["ambiguous_held_for_review"] == 1
     assert labels.set_index("reason").loc["colour_or_look_mismatch", "extra"] == 1
     assert compared.loc[compared["case_id"].eq("1"), "actual_route"].iloc[0] == "human_review"
+
+
+def test_score_ui_run_preserves_source_and_validates_dataset(tmp_path):
+    import json
+
+    from benchmark import build_dataset, check_bad_inputs, score_ui_run
+    from radar.data import load_csv_bundle
+    from radar.pipeline import Settings, run
+
+    build_dataset(tmp_path)
+    check_bad_inputs(tmp_path)
+    options = Options(as_of="2026-10-04", period_days=18, maturity_days=14, max_notes=0)
+    result = run(
+        load_csv_bundle(str(tmp_path / "inputs.zip")), options, Settings(), chains=fake_chains()
+    )
+    result.pop("cache")
+    result["options"] = vars(options)
+    source = tmp_path / "ui-export.json"
+    source.write_text(json.dumps(result), encoding="utf-8")
+    original = source.read_bytes()
+    summary = score_ui_run(source, tmp_path)
+    saved = json.loads((tmp_path / "evaluation" / "ui-export" / "actual_run.json").read_text())
+    assert saved["benchmark_options"]["period_days"] == 18
+    assert saved["evaluation_origin"] == "saved UI run; no new model calls"
+    assert summary["size_note_drafts"] == 0
+    assert source.read_bytes() == original
+    with pytest.raises(ValueError, match="already exists"):
+        score_ui_run(source, tmp_path)
+    result["rows"][0]["text"] = "Wrong dataset"
+    wrong = tmp_path / "wrong-export.json"
+    wrong.write_text(json.dumps(result), encoding="utf-8")
+    with pytest.raises(ValueError, match="differs"):
+        score_ui_run(wrong, tmp_path)
+
+
+def test_disabled_size_notes_do_not_look_like_writer_failures():
+    from radar.pipeline import Settings, run
+
+    result = run(
+        validate_tables(flagged_tables()),
+        Options(as_of="2026-09-06", period_days=7, maturity_days=0, min_samples=1, max_notes=0),
+        Settings(),
+        chains=fake_chains(),
+    )
+    assert any(group["flagged"] for group in result["analysis"]["groups"])
+    assert result["notes"] == []
+    assert not any(call["call_type"] == "size_note" for call in result["calls"])
+    assert "Size-note drafts disabled; no size-note requests made." in result["messages"]

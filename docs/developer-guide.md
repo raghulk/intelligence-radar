@@ -2,7 +2,7 @@
 
 ## Start from a Clean Machine
 
-Install Git and [uv](https://docs.astral.sh/uv/getting-started/installation/). Python 3.11+ is supported; the local verified environment uses 3.13.1 and Hugging Face metadata selects 3.11. uv can install a compatible interpreter. GitHub authentication is required while this repository is private.
+Install Git and [uv](https://docs.astral.sh/uv/getting-started/installation/). Python 3.11+ is supported; local development uses 3.13.1 and free ZeroGPU metadata selects 3.12.12. All 52 tests pass on 3.13.1 and 3.12.12; the earlier clean-clone check passed on 3.11.14. uv can install a compatible interpreter. GitHub authentication is required while this repository is private.
 
 ```sh
 git clone https://github.com/raghulk/intelligence-radar.git
@@ -111,7 +111,15 @@ These commands do not call paid models. The baseline [evaluation report](../data
 uv run --locked python benchmark.py score
 ```
 
-The original 180 distinct cases have raw exact-label agreement 128/180. This is not certified production accuracy. The 55%-Other profile adds 511 copied model-background cases and needs about 691 fresh classifier requests. Copied cases are excluded from distinct-case accuracy. It has not been scored as a new live run.
+The original 180 distinct cases have raw exact-label agreement 128/180. The [new captured UI run](../data/realistic_other/evaluation/ui_run_20261004/evaluation_report.md) uses the 55%-Other profile and 18-day groups: 610 classifier calls, one successful brief, 127/180 raw exact labels, 116/162 clear accepted exact labels, 16 clear cases with held claims and INR 4.3976928 provider usage. Its draft limit was 0, so no size-note writer was called. This is not certified production accuracy. The 28-day profile needs about 691 requests; copied background cases remain excluded from distinct accuracy.
+
+To score a new downloaded UI export without model calls:
+
+```sh
+uv run --locked python benchmark.py score-ui --data-dir data/realistic_other --run-report path/to/private-export.json
+```
+
+Scoring verifies record IDs, sanitized text, groups and source/cohort metadata against the selected bundle. It uses the export's actual options, recalculates reference window inclusion and writes a separate immutable report directory named after the export. Out-of-window anchors are not classifier failures. The source export and original benchmark stay unchanged; retained costs are the costs of the saved run, not additional scoring charges.
 
 To evaluate it once, deliberately authorize provider spending, then run:
 
@@ -131,6 +139,7 @@ This is a **paid** full pipeline, with benchmark options of report cutoff 2026-1
 | Progress continues for minutes | Wait for reading, brief and optional note stages; results appear at the end |
 | Feedback held for review | Inspect the reason and quote; do not lower confidence solely to increase coverage |
 | No size notes | Draft limit defaults to 0; also check samples, coverage, rate/direction gates and remaining budget |
+| Old localhost still shows an old note problem | Python processes do not reload source edits; preserve the export, then restart that server. The repair was originally started on 7862, not 7861 |
 | Note withheld | Check confidence, supported current-return IDs and its specific reason |
 | Writer `LengthFinishReasonError` | Check output/reasoning usage and configured ceiling; replay writer only |
 | Writer timeout | Check safe timing/HTTP diagnostics and provider status; no automatic retry is made |
@@ -151,7 +160,9 @@ The verified size-note replay used current matching quotes, confidence 0.82, 53.
 
 ## Hugging Face Deployment
 
-Deployment is not yet complete. Required from the owner:
+Public Space [raghulkrishnan/intelligence-radar](https://huggingface.co/spaces/raghulkrishnan/intelligence-radar) has been created using this account's free ZeroGPU allowance; source/startup verification is in progress. No paid hardware was purchased. This app calls remote models and does not require a GPU allocation.
+
+For another deployment, required from the owner:
 
 1. A Hugging Face account or organization with permission to create a Gradio Space, and the desired Space owner/name, such as `<owner>/intelligence-radar`.
 2. An eligible compute plan. Current [Spaces documentation](https://huggingface.co/docs/hub/spaces-overview) requires PRO for personal Gradio/Docker creation or an organization plan; eligible free personal accounts have a limited ZeroGPU exception. Do not assume CPU Basic alone removes account eligibility requirements. This app uses remote models and does not need a GPU.
@@ -160,7 +171,9 @@ Deployment is not yet complete. Required from the owner:
 
 Never send passwords or tokens through chat. For automated publishing, authenticate locally with a fine-grained Hugging Face write token scoped to the Space; keep it out of code and Git remotes. The local OpenRouter configuration is not automatically copied to the cloud.
 
-Create a **Gradio** Space with CPU Basic if the account is eligible. Push the repository's committed contents to the Space repository. The root [README](../README.md) selects Gradio 6.29.1, Python 3.11 and [app.py](../app.py); [requirements.txt](../requirements.txt) supplies runtime dependencies. GitHub pushes do not automatically deploy to Hugging Face: publishing/synchronization is a separate step.
+Create a **Gradio** Space with CPU Basic or the account's available free ZeroGPU option. Push only reviewed repository files, not the working folder containing secrets/environments. The root [README](../README.md) selects Gradio 6.29.1, Python 3.12.12 and [app.py](../app.py); [requirements.txt](../requirements.txt) supplies runtime dependencies. GitHub pushes do not automatically deploy to Hugging Face: publishing/synchronization is a separate step.
+
+Use an explicitly supported [ZeroGPU Python version](https://huggingface.co/docs/hub/spaces-zerogpu#supported-versions). Requesting 3.11 caused a fallback to 3.10.13 and NumPy installation failure. The supported 3.12.12 runtime preserves the project's Python 3.11 minimum and existing dependencies.
 
 Use CSV mode. Do not copy `DATABASE_URL` or point the cloud app at your Mac. Hugging Face permits outbound ports 80/443/8080, not Postgres 5432; the existing psycopg adapter cannot use a database's HTTP API. The default disk and Gradio sessions are temporary.
 
@@ -176,4 +189,4 @@ Before sharing a URL, verify startup/build logs, login, CSV loading, a small pai
 
 Neha owns business interpretation, sample checking and approval. Developers own provider credit/rate limits, schema compatibility, configuration and incidents. Validate a randomly sampled real cohort with Neha before relying on labels for vendor action; the discovery quality target has not been met by the provisional benchmark.
 
-There is no automatic publishing, product-page integration, persistent approval log, durable job queue, complete anonymization, account-wide spending control or proven return reduction. Regex masking is a secondary safeguard, not permission to upload PII. Confidence is model output, not measured accuracy. The full 55%-Other pipeline and a deployed public URL remain unverified.
+There is no automatic publishing, product-page integration, persistent approval log, durable job queue, complete anonymization, account-wide spending control or proven return reduction. Regex masking is a secondary safeguard, not permission to upload PII. Confidence is model output, not measured accuracy. The 55%-Other run is now measured at its recorded 18-day settings; optional notes and 28-day full-profile evaluation are separate. Public deployment verification is in progress.

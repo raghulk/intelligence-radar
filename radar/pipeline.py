@@ -627,7 +627,9 @@ def run(
             )
         if len(groups) > options.max_notes:
             messages.append(
-                f"Size-note limit reached: {len(groups) - options.max_notes} eligible groups deferred."
+                "Size-note drafts disabled; no size-note requests made."
+                if options.max_notes == 0
+                else f"Size-note limit reached: {len(groups) - options.max_notes} eligible groups deferred."
             )
         return notes
 

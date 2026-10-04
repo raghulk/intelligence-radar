@@ -1,0 +1,7 @@
+language,reference_certainty,cases,exact_labels,clear_review,request_failures
+English,ambiguous,6,1,0,0
+English,clear,59,46,4,0
+Hindi,ambiguous,1,0,0,0
+Hindi,clear,16,14,0,0
+Hinglish,ambiguous,11,8,0,0
+Hinglish,clear,87,58,12,0
