@@ -1,0 +1,16 @@
+case_id,file,expected_error_contains,actual_error,ui_error,passed
+duplicate_id,bad_inputs/duplicate_id.zip,IDs must be nonempty and unique,ValueError: vendors: IDs must be nonempty and unique.,'vendors: IDs must be nonempty and unique.',True
+missing_column,bad_inputs/missing_column.zip,missing columns category,ValueError: products: missing columns category.,'products: missing columns category.',True
+broken_foreign_key,bad_inputs/broken_foreign_key.zip,missing products,ValueError: reviews.sku: reference to a missing products row.,'reviews.sku: reference to a missing products row.',True
+invalid_date,bad_inputs/invalid_date.zip,valid ISO timestamps,ValueError: order_items.delivered_at: use valid ISO timestamps.,'order_items.delivered_at: use valid ISO timestamps.',True
+invalid_rating,bad_inputs/invalid_rating.zip,integer from 1 to 5,ValueError: reviews.rating: expected an integer from 1 to 5.,'reviews.rating: expected an integer from 1 to 5.',True
+fractional_rating,bad_inputs/fractional_rating.zip,integer from 1 to 5,ValueError: reviews.rating: expected an integer from 1 to 5.,'reviews.rating: expected an integer from 1 to 5.',True
+empty_review,bad_inputs/empty_review.zip,empty values,ValueError: reviews.text: empty values are not allowed.,'reviews.text: empty values are not allowed.',True
+undelivered_return,bad_inputs/undelivered_return.zip,delivered before the return,ValueError: returns: items must have been delivered before the return.,'returns: items must have been delivered before the return.',True
+return_before_delivery,bad_inputs/return_before_delivery.zip,delivered before the return,ValueError: returns: items must have been delivered before the return.,'returns: items must have been delivered before the return.',True
+duplicate_physical_return,bad_inputs/duplicate_physical_return.zip,one return per physical,ValueError: returns: only one return per physical order item is supported.,'returns: only one return per physical order item is supported.',True
+review_wrong_item,bad_inputs/review_wrong_item.zip,linked item must match SKU,ValueError: reviews: linked item must match SKU and precede the review.,'reviews: linked item must match SKU and precede the review.',True
+review_before_delivery,bad_inputs/review_before_delivery.zip,precede the review,ValueError: reviews: linked item must match SKU and precede the review.,'reviews: linked item must match SKU and precede the review.',True
+empty_size,bad_inputs/empty_size.zip,empty values,ValueError: order_items.size: empty values are not allowed.,'order_items.size: empty values are not allowed.',True
+answer_key_leak,bad_inputs/answer_key_leak.zip,five named CSV files,ValueError: ZIP must contain exactly the five named CSV files at its root.,'ZIP must contain exactly the five named CSV files at its root.',True
+not_a_zip,bad_inputs/not_a_zip.zip,BadZipFile,BadZipFile: File is not a zip file,'Data loading failed. Check the CSV format or server database configuration.',True

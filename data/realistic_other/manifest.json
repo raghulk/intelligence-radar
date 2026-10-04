@@ -1,0 +1,32 @@
+{
+  "synthetic_only": true,
+  "seed": 20261004,
+  "tables": {
+    "vendors": 4,
+    "products": 16,
+    "order_items": 5000,
+    "returns": 1090,
+    "reviews": 97
+  },
+  "distinct_semantic_scenarios": 180,
+  "other_returns": 600,
+  "other_share": 0.5504587155963303,
+  "other_hidden_fit_reference_share": 0.5466666666666666,
+  "copied_background_model_cases": 511,
+  "languages": {
+    "Hinglish": 98,
+    "English": 65,
+    "Hindi": 17
+  },
+  "reference_warning": "Model-generated annotations, not certified human truth; copied background model/dropdown rows do not count as distinct model accuracy samples.",
+  "run_options": {
+    "as_of": "2026-10-04",
+    "period_days": 28,
+    "maturity_days": 14,
+    "min_samples": 30,
+    "concurrency": 6,
+    "budget_inr": 15,
+    "max_notes": 2
+  },
+  "inputs_sha256": "836526a30cc8956378bd107481302bc6bfa7b6b8a82ec7990222fdb5895b3f21"
+}

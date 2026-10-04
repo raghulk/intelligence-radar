@@ -1,0 +1,16 @@
+case_id,file,expected_error_contains
+duplicate_id,bad_inputs/duplicate_id.zip,IDs must be nonempty and unique
+missing_column,bad_inputs/missing_column.zip,missing columns category
+broken_foreign_key,bad_inputs/broken_foreign_key.zip,missing products
+invalid_date,bad_inputs/invalid_date.zip,valid ISO timestamps
+invalid_rating,bad_inputs/invalid_rating.zip,integer from 1 to 5
+fractional_rating,bad_inputs/fractional_rating.zip,integer from 1 to 5
+empty_review,bad_inputs/empty_review.zip,empty values
+undelivered_return,bad_inputs/undelivered_return.zip,delivered before the return
+return_before_delivery,bad_inputs/return_before_delivery.zip,delivered before the return
+duplicate_physical_return,bad_inputs/duplicate_physical_return.zip,one return per physical
+review_wrong_item,bad_inputs/review_wrong_item.zip,linked item must match SKU
+review_before_delivery,bad_inputs/review_before_delivery.zip,precede the review
+empty_size,bad_inputs/empty_size.zip,empty values
+answer_key_leak,bad_inputs/answer_key_leak.zip,five named CSV files
+not_a_zip,bad_inputs/not_a_zip.zip,BadZipFile

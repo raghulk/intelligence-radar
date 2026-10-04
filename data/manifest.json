@@ -1,0 +1,28 @@
+{
+  "synthetic_only": true,
+  "seed": 20261004,
+  "tables": {
+    "vendors": 4,
+    "products": 16,
+    "order_items": 5000,
+    "returns": 1090,
+    "reviews": 97
+  },
+  "distinct_semantic_scenarios": 180,
+  "languages": {
+    "Hinglish": 98,
+    "English": 65,
+    "Hindi": 17
+  },
+  "reference_warning": "Model-generated annotations, not certified human truth; background dropdown rows do not count as model accuracy samples.",
+  "run_options": {
+    "as_of": "2026-10-04",
+    "period_days": 28,
+    "maturity_days": 14,
+    "min_samples": 30,
+    "concurrency": 6,
+    "budget_inr": 15,
+    "max_notes": 2
+  },
+  "inputs_sha256": "8eace22f9211d6ad72f66f30cc29f96993885ed240ea16379318b67419b8f24e"
+}

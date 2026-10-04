@@ -1,0 +1,34 @@
+Category Fit Brief
+
+Synthetic Bengaluru Stitch | kurti | M
+Flagged kurti M group for Synthetic Bengaluru Stitch. Most fit feedback points to too-small sizing, with chest tightness and buttons not closing cited in a current return; another return flags pattern issues — darts sitting too high and the bust seam cutting across the wrong place — that sizing changes alone may not fix. A supporting review mentions loose pants, which looks misattributed to this kurti group and needs verification. Fit returns emerged this window after a prior period with none recorded, and several returns remain unresolved.
+Action: Ask the vendor for a chest-measurement audit on M kurtis and review dart and bust-seam pattern placement; chase the unresolved returns and confirm whether the loose-pants review belongs to this group.
+  return:SYN_R0001: Kurta ka chest part bahut tight hai
+  return:SYN_R0020: The darts point too high and the bust seam cuts across the wrong place, even with a comfortable fit.
+  review:SYN_RV0015: पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+
+Synthetic Tiruppur Loom | shirt | M
+Flagged shirt M group for Synthetic Tiruppur Loom. Current returns consistently describe a too-large fit — shoulders dropping and extra chest room, with customers saying they need to size down. A return in this group describes a loose palazzo waist and crotch, which may reflect a bundled item or misattribution and is worth confirming. Fit returns emerged this window after a prior period with none recorded.
+Action: Review shoulder and chest measurements against the M spec with the vendor, consider size-down guidance on the listing, and confirm whether the palazzo-related return belongs to this shirt group.
+  return:SYN_R0237: Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+  return:SYN_R0235: यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+  return:SYN_R0236: Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai.
+
+Synthetic Jaipur Thread | kurti | M
+Kurti M for Synthetic Jaipur Thread is not flagged and fit returns run below peer levels, but signals are mixed: reviews point to tight shoulders and restricted arm movement, while a return attributes side gaping to an oddly angled wrap-panel cut rather than sizing. A supporting review describing a roomy cardigan appears misattributed to this group. Several returns remain unresolved and should be closed out.
+Action: Close out the unresolved returns, check shoulder ease and armhole comfort on M kurtis with the vendor, treat the wrap-panel gape as a pattern issue to verify separately, and confirm the cardigan review's attribution.
+  review:SYN_RV0001: shoulders squeeze karte hain
+  return:SYN_R0023: The wrap panel gapes open at the side because its cut is oddly angled
+  review:SYN_RV0009: The cardigan hangs like a tent on me; sleeves and body are both far too roomy
+
+Synthetic Surat Weave | shirt | M
+Shirt M for Synthetic Surat Weave is not flagged and fit returns run below peer levels. Evidence is mixed: a return cites a collar that will not lie flat — a shape issue rather than size — while other returns describe loose shoulders and a loose palazzo waist. Those loose-fit return texts are identical to ones recorded under the Tiruppur shirt group, so duplicates or misattribution should be ruled out before acting.
+Action: Verify whether the duplicated loose-fit return texts belong to this vendor or the Tiruppur group, log the collar-shape complaint for pattern review, and keep the group under watch before any sizing change.
+  return:SYN_R0022: The collar stands up in a strange point and refuses to lie flat; the shirt isn't tight or loose.
+  return:SYN_R0355: यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+  return:SYN_R0356: Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai.
+
+Synthetic Bengaluru Stitch | trousers | XL
+Trousers XL for Synthetic Bengaluru Stitch is marked insufficient data on low volume, so no firm fit conclusion should be drawn this window. The available return describes a loose waist that falls without a belt and also flags the wash shade as darker than shown in the listing — a color-accuracy issue alongside fit.
+Action: Keep monitoring this low-volume group before considering size changes, and route the shade-mismatch comment to the listings team to check photo and color accuracy.
+  return:SYN_R0010: Jeans waist pe dheeli hai, belt ke bina girti

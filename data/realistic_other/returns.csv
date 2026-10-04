@@ -1,0 +1,1091 @@
+return_id,order_item_id,requested_at,reason_code,reason_text
+SYN_R0001,SYN_I00001,2026-08-27,Other,"Kurta ka chest part bahut tight hai, buttons close nahi ho rahe. Side seam bhi khul rahi. Return karna hai."
+SYN_R0002,SYN_I00005,2026-08-31,Other,The waist is so snug I cannot sit comfortably. The lining also feels scratchy; sending it back.
+SYN_R0003,SYN_I00009,2026-09-04,Other,"Bought my usual size, yet the band cuts into my ribs. The navy looks purple compared with the listing. Please process a return."
+SYN_R0004,SYN_I00013,2026-09-08,Other,"The sleeves bind around my upper arms, and one cuff button is missing. Returning both issues."
+SYN_R0005,SYN_I00014,2026-09-09,Other,"A gorgeous blazer, unfortunately the shoulders are narrow enough to pull the whole back tight. The lining feels rough against my arms."
+SYN_R0006,SYN_I00018,2026-09-13,Other,"Yeh blouse underarms mein chubh ke tight hota, two minutes bhi nahi pehen paayi. Ek hook bhi missing hai."
+SYN_R0007,SYN_I00022,2026-09-17,Other,It is not roomy at all; the lining presses against my chest whenever I move. The floral print is absent from the delivered top.
+SYN_R0008,SYN_I02003,2026-09-10,Other,The dress is tight across the hips even though the neckline and color are lovely. A decorative button is loose and falling off.
+SYN_R0009,SYN_I00029,2026-08-27,Other,Ordered my regular size but this skirt slides down unless I keep tightening the drawstring. One pocket seam is open.
+SYN_R0010,SYN_I02013,2026-09-20,Other,"Jeans waist pe dheeli hai, belt ke bina girti; wash ka shade bhi listing se darker hai."
+SYN_R0011,SYN_I00034,2026-09-01,Other,"Maine medium liya, par kurta itna baggy hai jaise XL ho; exchange nahi, refund please. Listing ka cream shade actual mein yellow hai."
+SYN_R0012,SYN_I00038,2026-09-05,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0013,SYN_I00042,2026-09-09,Other,"Top ka neckline shoulders se slide hota rehta, overall size bada lag raha hai. Material bhi plastic jaisa feel hota."
+SYN_R0014,SYN_I00045,2026-09-12,Other,Sleeves aur torso dono oversize feel hote hain; cuffs haath cover kar deti hain. Ek cuff button toot gaya.
+SYN_R0015,SYN_I00046,2026-09-13,Other,The elastic never holds the skirt up; it is much too loose around my waist. The lining feels stiff and papery.
+SYN_R0016,SYN_I00050,2026-09-17,Other,Kurti sleeves meri kalai se kaafi neeche aa rahi hain; shoulder fit otherwise sahi. Side seam ka stitch bhi khula hai.
+SYN_R0017,SYN_I00053,2026-09-20,Other,"The hem sweeps the floor in flats, although the waist fits exactly as expected. The delivered plum is much brighter than the muted listing photo."
+SYN_R0018,SYN_I00057,2026-08-27,Other,The jacket's boxy cut makes me look square; the labeled size itself is comfortable. Its lining is scratchy against my wrists.
+SYN_R0019,SYN_I00061,2026-08-31,Other,The neckline sits awkwardly wide and folds outward; the rest of the blouse fits.
+SYN_R0020,SYN_I00065,2026-09-04,Other,"The darts point too high and the bust seam cuts across the wrong place, even with a comfortable fit."
+SYN_R0021,SYN_I00069,2026-09-08,Other,Peplum ka flare hips pe awkward balloon banata hai; waist size bilkul sahi hai.
+SYN_R0022,SYN_I00004,2026-08-30,Other,The collar stands up in a strange point and refuses to lie flat; the shirt isn't tight or loose.
+SYN_R0023,SYN_I00074,2026-09-13,Other,The wrap panel gapes open at the side because its cut is oddly angled; sizing feels right.
+SYN_R0024,SYN_I00078,2026-09-17,Other,The zipper jams halfway and the teeth split apart; returning this faulty skirt.
+SYN_R0025,SYN_I00082,2026-09-21,Other,Kurta ki lining phati hui mili and side seam loose threads se khul rahi; shoulders also too tight.
+SYN_R0026,SYN_I00086,2026-08-28,Other,Buttons aadhe loose hain aur ek missing; wash se pehle hi kapda defected tha.
+SYN_R0027,SYN_I00090,2026-09-01,Other,"Pocket ka corner properly stitch hi nahi hua, coins daale toh hole se nikal gaye."
+SYN_R0028,SYN_I02025,2026-09-04,Other,"Pant ka buttonhole closed hi hai, button pass nahi hota; tailor se fix nahi karwana."
+SYN_R0029,SYN_I00097,2026-09-08,Other,"The snap fastening is cracked and cannot stay closed, despite the garment being unworn."
+SYN_R0030,SYN_I00101,2026-09-12,Other,The elastic casing is split open and the waistband elastic is poking out after one gentle wear.
+SYN_R0031,SYN_I00105,2026-09-16,Other,"Listing mein sage green tha, parcel wala kurta clearly teal nikla. Fit theek hai."
+SYN_R0032,SYN_I00109,2026-09-20,Other,"The print on the delivered scarf is tiny dots, whereas the product page showed wide stripes."
+SYN_R0033,SYN_I00113,2026-08-27,Other,The embroidery placement is completely different from the centered motif shown online.
+SYN_R0034,SYN_I00117,2026-08-31,Other,"This is plain white, not the ivory-and-gold patterned kurta pictured in the listing."
+SYN_R0035,SYN_I00121,2026-09-04,Other,The floral print is much larger and busier in person than the delicate small pattern shown.
+SYN_R0036,SYN_I00125,2026-09-08,Other,"Skirt pe gold foil listing jaisa nahi, yahan silver geometric lines hain; return please."
+SYN_R0037,SYN_I00129,2026-09-12,Other,"Kurti ka actual color faded mustard hai, website wali rich yellow bilkul nahi; silhouette acchi."
+SYN_R0038,SYN_I00007,2026-09-02,Other,"Listing ka checked pattern chhote squares wala tha; received shirt mein huge checks hain, bilkul different vibe."
+SYN_R0039,SYN_I00134,2026-09-17,Other,The sweater yarn is so itchy on my neck that I had to take it off within minutes.
+SYN_R0040,SYN_I00138,2026-09-21,Other,"Linen jaisa likha tha, par kapda plastic-feel hai and waist is too tight for me."
+SYN_R0041,SYN_I00142,2026-08-28,Other,"Velvet expect kiya tha, yeh toh stiff canvas jaisa hai; drape hi nahi hota."
+SYN_R0042,SYN_I00146,2026-09-01,Other,Dupatta itna rough hai ki neck pe red marks ho gaye; wash se soften bhi nahi hua.
+SYN_R0043,SYN_I00150,2026-09-05,Other,"Top ka material bahut thin hai, andar ka tag bhi bahar se dikh raha. Not worth it."
+SYN_R0044,SYN_I00154,2026-09-09,Other,The fleece lining sheds fibers all over my other clothes and feels unpleasantly coarse.
+SYN_R0045,SYN_I00158,2026-09-13,Other,"I expected a substantial knit, but this jersey is tissue-thin and clings unpleasantly."
+SYN_R0046,SYN_I00162,2026-09-17,Other,"M order kiya tha, packet mein S tag wala kurta mila. Product wrong sent hai, fit review nahi."
+SYN_R0047,SYN_I02029,2026-09-08,Other,The parcel contained a men's shirt instead of the women's linen trousers on my order.
+SYN_R0048,SYN_I02009,2026-09-16,Other,Label pe SKU 74-B hai but maine 74-A floral dress order ki thi; yeh plain one nahi chahiye.
+SYN_R0049,SYN_I00170,2026-08-28,Other,"Maine blue size L manga tha, delivered packet mein red size M hai; tag mismatch confirmed."
+SYN_R0050,SYN_I00173,2026-08-31,Other,Parcel khola toh kurti ke badle ek unrelated pillow cover tha; return arrange karo.
+SYN_R0051,SYN_I00177,2026-09-04,Other,Received parcel mein meri invoice ke against kisi aur customer ka kurta tha; mera item absent hai.
+SYN_R0052,SYN_I00178,2026-09-05,Other,The carton had the matching top but not the matching skirt from the two-piece outfit.
+SYN_R0053,SYN_I02031,2026-09-10,Other,The set should include a jacket and trousers; only the jacket was in the sealed bag.
+SYN_R0054,SYN_I00008,2026-09-03,Other,The box arrived soaked through after rain; the folded shirt inside has water stains.
+SYN_R0055,SYN_I00186,2026-09-13,Other,Delivery wala parcel doorstep pe phenk gaya; box dented tha aur kurta ka buckle toot chuka tha.
+SYN_R0056,SYN_I00190,2026-09-17,Other,Outer courier bag pe boot print aur tear tha; sari ka border bhi wahi se snagged hai.
+SYN_R0057,SYN_I00194,2026-09-21,Other,"Courier bag ka seal already ripped tha, top par muddy smudge aur ek fresh snag mila."
+SYN_R0058,SYN_I02016,2026-09-23,Other,"The courier left the parcel under a dripping leak; the dress arrived with a damp, stained panel."
+SYN_R0059,SYN_I00201,2026-08-31,Other,The shipping envelope had a deep cut and the fabric beneath it was sliced in the same spot.
+SYN_R0060,SYN_I00205,2026-09-04,Other,The parcel was visibly run over or compressed; the wooden hanger inside snapped in half.
+SYN_R0061,SYN_I00209,2026-09-08,Other,"Wedding kal thi, outfit uske baad deliver hua. Ab function over, return request."
+SYN_R0062,SYN_I00213,2026-09-12,Other,"I paid for delivery by Friday, but the package arrived on Tuesday of the following week."
+SYN_R0063,SYN_I00217,2026-09-16,Other,The order was dispatched promptly but sat with the carrier for ten days before reaching me.
+SYN_R0064,SYN_I00221,2026-09-20,Other,"Order status mein out for delivery 5 din dikhaya, actual parcel deadline ke baad aaya."
+SYN_R0065,SYN_I00225,2026-08-27,Other,"Courier baar-baar date change karta raha, finally parcel trip se wapas aane ke baad mila."
+SYN_R0066,SYN_I00229,2026-08-31,Other,"Expected delivery Monday thi, Saturday ko mila; office event tab tak khatam ho gaya tha."
+SYN_R0067,SYN_I00233,2026-09-04,Other,The parcel did not reach the pickup point until after my collection code expired twice.
+SYN_R0068,SYN_I00237,2026-09-08,Other,"A two-day shipping label turned into eleven days in transit; this review is about lateness, not quality."
+SYN_R0069,SYN_I00241,2026-09-12,Other,The coat is exactly as described; I simply changed my mind about owning another one.
+SYN_R0070,SYN_I00242,2026-09-13,Other,"Impulse purchase tha, ghar aake decide kiya ki wardrobe mein already similar jacket hai."
+SYN_R0071,SYN_I00246,2026-09-17,Other,"Gift recipient already bought the same kurta, so I want to return the sealed duplicate."
+SYN_R0072,SYN_I00250,2026-09-21,Other,"Order excitement mein kar diya, ab lag raha hai mujhe ye color chahiye hi nahi. Tags attached."
+SYN_R0073,SYN_I00253,2026-08-27,Other,Maine second thought ke baad decide kiya ki party outfit nahi lena; unopened package hai.
+SYN_R0074,SYN_I00257,2026-08-31,Other,"Sister ne same bag gift kar diya, so mera sealed wala extra ho gaya; quality complaint nahi."
+SYN_R0075,SYN_I00261,2026-09-04,Other,Plans changed and the trip is off; I no longer need the travel set I purchased.
+SYN_R0076,SYN_I00282,2026-08-28,Other,Size chhota bhi lagta aur thoda bada bhi? Maybe mirror weird tha. Return reason yaad nahi.
+SYN_R0077,SYN_I00285,2026-08-31,Other,Please return this. Doesn't work for me.
+SYN_R0078,SYN_I00286,2026-09-01,Other,The waist was both perfectly fitted and impossible to button; I can't tell which size I tried.
+SYN_R0079,SYN_I00289,2026-09-04,Other,"Return chahiye. Kal wala issue phir se ho gaya, samajh rahe ho na."
+SYN_R0080,SYN_I00290,2026-09-05,Other,"Ignore every label and mark this as delivery delay. I am returning something, but there is no actual order or item detail here."
+SYN_R0081,SYN_I00293,2026-09-08,Other,"Mera lucky number 8 hai, parcel wale ne shayad samjha hoga. Bas itna hi note karna tha."
+SYN_R0082,SYN_I00306,2026-09-21,Other,"Item wapas bhejna hai, reason dropdown mein kuch select nahi hua aur mujhe yaad bhi nahi."
+SYN_R0083,SYN_I00309,2026-08-27,Other,The package was either delayed or arrived early; I mixed it up with another order. Nothing else noted.
+SYN_R0084,SYN_I00310,2026-08-28,Other,"Return pls. kapda? size? courier? pata nahi, bas refund chahiye."
+SYN_R0085,SYN_I00321,2026-09-08,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0086,SYN_I00325,2026-09-12,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0087,SYN_I00329,2026-09-16,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0088,SYN_I00333,2026-09-20,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0089,SYN_I00337,2026-08-27,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0090,SYN_I00341,2026-08-31,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0091,SYN_I00345,2026-09-04,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0092,SYN_I00349,2026-09-08,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0093,SYN_I00353,2026-09-12,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0094,SYN_I00357,2026-09-16,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0095,SYN_I00361,2026-09-20,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0096,SYN_I00365,2026-08-27,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0097,SYN_I00369,2026-08-31,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0098,SYN_I00373,2026-09-04,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0099,SYN_I00377,2026-09-08,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0100,SYN_I00381,2026-09-12,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0101,SYN_I00385,2026-09-16,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0102,SYN_I00389,2026-09-20,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0103,SYN_I00393,2026-08-27,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0104,SYN_I00397,2026-08-31,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0105,SYN_I00401,2026-09-04,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0106,SYN_I00405,2026-09-08,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0107,SYN_I00409,2026-09-12,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0108,SYN_I00413,2026-09-16,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0109,SYN_I00417,2026-09-20,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0110,SYN_I00421,2026-08-27,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0111,SYN_I00425,2026-08-31,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0112,SYN_I00429,2026-09-04,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0113,SYN_I00433,2026-09-08,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0114,SYN_I00437,2026-09-12,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0115,SYN_I00441,2026-09-16,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0116,SYN_I00445,2026-09-20,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0117,SYN_I00449,2026-08-27,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0118,SYN_I00453,2026-08-31,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0119,SYN_I00457,2026-09-04,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0120,SYN_I00461,2026-09-08,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0121,SYN_I00465,2026-09-12,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0122,SYN_I00469,2026-09-16,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0123,SYN_I00473,2026-09-20,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0124,SYN_I00477,2026-08-27,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0125,SYN_I00481,2026-08-31,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0126,SYN_I00485,2026-09-04,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0127,SYN_I00489,2026-09-08,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0128,SYN_I00493,2026-09-12,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0129,SYN_I00497,2026-09-16,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0130,SYN_I00501,2026-09-20,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0131,SYN_I00505,2026-08-27,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0132,SYN_I00509,2026-08-31,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0133,SYN_I00513,2026-09-04,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0134,SYN_I00517,2026-09-08,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0135,SYN_I00521,2026-09-12,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0136,SYN_I00525,2026-09-16,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0137,SYN_I00529,2026-09-20,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0138,SYN_I00533,2026-08-27,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0139,SYN_I00537,2026-08-31,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0140,SYN_I00541,2026-09-04,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0141,SYN_I00545,2026-09-08,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0142,SYN_I00549,2026-09-12,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0143,SYN_I00553,2026-09-16,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0144,SYN_I00557,2026-09-20,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0145,SYN_I00561,2026-08-27,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0146,SYN_I00565,2026-08-31,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0147,SYN_I00569,2026-09-04,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0148,SYN_I00573,2026-09-08,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0149,SYN_I00577,2026-09-12,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0150,SYN_I00581,2026-09-16,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0151,SYN_I00585,2026-09-20,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0152,SYN_I00589,2026-08-27,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0153,SYN_I00593,2026-08-31,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0154,SYN_I00597,2026-09-04,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0155,SYN_I00601,2026-09-08,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0156,SYN_I00605,2026-09-12,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0157,SYN_I00609,2026-09-16,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0158,SYN_I00613,2026-09-20,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0159,SYN_I00617,2026-08-27,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0160,SYN_I00621,2026-08-31,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0161,SYN_I00625,2026-09-04,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0162,SYN_I00629,2026-09-08,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0163,SYN_I00633,2026-09-12,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0164,SYN_I00637,2026-09-16,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0165,SYN_I00641,2026-09-20,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0166,SYN_I00645,2026-08-27,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0167,SYN_I00649,2026-08-31,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0168,SYN_I00653,2026-09-04,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0169,SYN_I00657,2026-09-08,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0170,SYN_I00661,2026-09-12,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0171,SYN_I00665,2026-09-16,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0172,SYN_I00669,2026-09-20,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0173,SYN_I00673,2026-08-27,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0174,SYN_I00677,2026-08-31,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0175,SYN_I00681,2026-09-04,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0176,SYN_I00685,2026-09-08,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0177,SYN_I00689,2026-09-12,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0178,SYN_I00693,2026-09-16,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0179,SYN_I00697,2026-09-20,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0180,SYN_I00701,2026-08-27,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0181,SYN_I00705,2026-08-31,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0182,SYN_I00709,2026-09-04,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0183,SYN_I00713,2026-09-08,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0184,SYN_I00717,2026-09-12,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0185,SYN_I00721,2026-09-16,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0186,SYN_I00725,2026-09-20,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0187,SYN_I00729,2026-08-27,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0188,SYN_I00733,2026-08-31,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0189,SYN_I00737,2026-09-04,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0190,SYN_I00741,2026-09-08,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0191,SYN_I00745,2026-09-12,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0192,SYN_I00749,2026-09-16,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0193,SYN_I00753,2026-09-20,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0194,SYN_I00757,2026-08-27,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0195,SYN_I00761,2026-08-31,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0196,SYN_I00765,2026-09-04,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0197,SYN_I00769,2026-09-08,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0198,SYN_I00773,2026-09-12,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0199,SYN_I00777,2026-09-16,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0200,SYN_I00781,2026-09-20,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0201,SYN_I00785,2026-08-27,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0202,SYN_I00789,2026-08-31,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0203,SYN_I00793,2026-09-04,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0204,SYN_I00797,2026-09-08,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0205,SYN_I00318,2026-09-05,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0206,SYN_I00322,2026-09-09,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0207,SYN_I00326,2026-09-13,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0208,SYN_I00330,2026-09-17,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0209,SYN_I00334,2026-09-21,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0210,SYN_I00338,2026-08-28,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0211,SYN_I00342,2026-09-01,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0212,SYN_I00346,2026-09-05,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0213,SYN_I00350,2026-09-09,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0214,SYN_I00354,2026-09-13,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0215,SYN_I00358,2026-09-17,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0216,SYN_I00362,2026-09-21,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0217,SYN_I00366,2026-08-28,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0218,SYN_I00370,2026-09-01,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0219,SYN_I00374,2026-09-05,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0220,SYN_I00378,2026-09-09,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0221,SYN_I00382,2026-09-13,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0222,SYN_I00386,2026-09-17,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0223,SYN_I00390,2026-09-21,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0224,SYN_I00394,2026-08-28,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0225,SYN_I00398,2026-09-01,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0226,SYN_I00402,2026-09-05,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0227,SYN_I00406,2026-09-09,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0228,SYN_I00410,2026-09-13,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0229,SYN_I00414,2026-09-17,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0230,SYN_I00418,2026-09-21,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0231,SYN_I00422,2026-08-28,Other,कमीज़ का सीना बहुत तंग है; बैठने पर बटन खिंचते हैं। रंग अच्छा है।
+SYN_R0232,SYN_I00426,2026-09-01,Other,Waistband itna kas ke baithta hai ki dinner ke baad aur bura lagta; exchange for bigger size.
+SYN_R0233,SYN_I00430,2026-09-05,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R0234,SYN_I00434,2026-09-09,Other,"Waist pe tight hai yaar, zip aadhi hi chadhti. Photo mein fit itna fitted nahi lag raha tha."
+SYN_R0235,SYN_I00015,2026-09-10,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0236,SYN_I00019,2026-09-14,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0237,SYN_I00023,2026-09-18,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0238,SYN_I00027,2026-09-22,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0239,SYN_I00031,2026-08-29,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0240,SYN_I00035,2026-09-02,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0241,SYN_I00039,2026-09-06,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0242,SYN_I00043,2026-09-10,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0243,SYN_I00047,2026-09-14,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0244,SYN_I00051,2026-09-18,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0245,SYN_I00055,2026-09-22,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0246,SYN_I00059,2026-08-29,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0247,SYN_I00063,2026-09-02,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0248,SYN_I00067,2026-09-06,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0249,SYN_I00071,2026-09-10,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0250,SYN_I00075,2026-09-14,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0251,SYN_I00079,2026-09-18,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0252,SYN_I00083,2026-09-22,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0253,SYN_I00087,2026-08-29,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0254,SYN_I00091,2026-09-02,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0255,SYN_I00095,2026-09-06,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0256,SYN_I00099,2026-09-10,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0257,SYN_I00103,2026-09-14,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0258,SYN_I00107,2026-09-18,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0259,SYN_I00111,2026-09-22,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0260,SYN_I00115,2026-08-29,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0261,SYN_I00119,2026-09-02,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0262,SYN_I00123,2026-09-06,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0263,SYN_I00127,2026-09-10,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0264,SYN_I00131,2026-09-14,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0265,SYN_I00135,2026-09-18,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0266,SYN_I00139,2026-09-22,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0267,SYN_I00143,2026-08-29,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0268,SYN_I00147,2026-09-02,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0269,SYN_I00151,2026-09-06,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0270,SYN_I00155,2026-09-10,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0271,SYN_I00159,2026-09-14,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0272,SYN_I00163,2026-09-18,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0273,SYN_I00167,2026-09-22,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0274,SYN_I00171,2026-08-29,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0275,SYN_I00175,2026-09-02,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0276,SYN_I00179,2026-09-06,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0277,SYN_I00183,2026-09-10,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0278,SYN_I00187,2026-09-14,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0279,SYN_I00191,2026-09-18,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0280,SYN_I00195,2026-09-22,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0281,SYN_I00199,2026-08-29,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0282,SYN_I00203,2026-09-02,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0283,SYN_I00207,2026-09-06,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0284,SYN_I00211,2026-09-10,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0285,SYN_I00215,2026-09-14,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0286,SYN_I00219,2026-09-18,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0287,SYN_I00223,2026-09-22,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0288,SYN_I00227,2026-08-29,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0289,SYN_I00231,2026-09-02,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0290,SYN_I00235,2026-09-06,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0291,SYN_I00239,2026-09-10,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0292,SYN_I00243,2026-09-14,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0293,SYN_I00247,2026-09-18,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0294,SYN_I00251,2026-09-22,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0295,SYN_I00255,2026-08-29,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0296,SYN_I00259,2026-09-02,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0297,SYN_I00263,2026-09-06,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0298,SYN_I00267,2026-09-10,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0299,SYN_I00271,2026-09-14,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0300,SYN_I00275,2026-09-18,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0301,SYN_I00279,2026-09-22,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0302,SYN_I00283,2026-08-29,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0303,SYN_I00287,2026-09-02,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0304,SYN_I00291,2026-09-06,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0305,SYN_I00295,2026-09-10,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0306,SYN_I00299,2026-09-14,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0307,SYN_I00303,2026-09-18,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0308,SYN_I00307,2026-09-22,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0309,SYN_I00311,2026-08-29,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0310,SYN_I00315,2026-09-02,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0311,SYN_I00319,2026-09-06,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0312,SYN_I00323,2026-09-10,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0313,SYN_I00327,2026-09-14,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0314,SYN_I00331,2026-09-18,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0315,SYN_I00335,2026-09-22,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0316,SYN_I00339,2026-08-29,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0317,SYN_I00343,2026-09-02,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0318,SYN_I00347,2026-09-06,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0319,SYN_I00351,2026-09-10,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0320,SYN_I00355,2026-09-14,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0321,SYN_I00359,2026-09-18,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0322,SYN_I00363,2026-09-22,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0323,SYN_I00367,2026-08-29,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0324,SYN_I00371,2026-09-02,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0325,SYN_I00375,2026-09-06,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0326,SYN_I00379,2026-09-10,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0327,SYN_I00383,2026-09-14,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0328,SYN_I00387,2026-09-18,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0329,SYN_I00391,2026-09-22,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0330,SYN_I00395,2026-08-29,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0331,SYN_I00399,2026-09-02,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0332,SYN_I00403,2026-09-06,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0333,SYN_I00407,2026-09-10,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0334,SYN_I00411,2026-09-14,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0335,SYN_I00415,2026-09-18,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0336,SYN_I00419,2026-09-22,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0337,SYN_I00423,2026-08-29,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0338,SYN_I00427,2026-09-02,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0339,SYN_I00431,2026-09-06,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0340,SYN_I00435,2026-09-10,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0341,SYN_I00439,2026-09-14,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0342,SYN_I00443,2026-09-18,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0343,SYN_I00447,2026-09-22,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0344,SYN_I00451,2026-08-29,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0345,SYN_I00455,2026-09-02,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0346,SYN_I00459,2026-09-06,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0347,SYN_I00463,2026-09-10,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0348,SYN_I00467,2026-09-14,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0349,SYN_I00471,2026-09-18,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0350,SYN_I00475,2026-09-22,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0351,SYN_I00479,2026-08-29,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0352,SYN_I00483,2026-09-02,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0353,SYN_I00487,2026-09-06,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0354,SYN_I00491,2026-09-10,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0355,SYN_I00012,2026-09-07,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0356,SYN_I00016,2026-09-11,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0357,SYN_I00020,2026-09-15,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0358,SYN_I00024,2026-09-19,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0359,SYN_I00028,2026-09-23,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0360,SYN_I00032,2026-08-30,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0361,SYN_I00036,2026-09-03,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0362,SYN_I00040,2026-09-07,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0363,SYN_I00044,2026-09-11,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0364,SYN_I00048,2026-09-15,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0365,SYN_I00052,2026-09-19,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0366,SYN_I00056,2026-09-23,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0367,SYN_I00060,2026-08-30,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0368,SYN_I00064,2026-09-03,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0369,SYN_I00068,2026-09-07,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0370,SYN_I00072,2026-09-11,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0371,SYN_I00076,2026-09-15,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0372,SYN_I00080,2026-09-19,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0373,SYN_I00084,2026-09-23,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0374,SYN_I00088,2026-08-30,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0375,SYN_I00092,2026-09-03,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0376,SYN_I00096,2026-09-07,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0377,SYN_I00100,2026-09-11,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0378,SYN_I00104,2026-09-15,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0379,SYN_I00108,2026-09-19,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0380,SYN_I00112,2026-09-23,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0381,SYN_I00116,2026-08-30,Other,Shirt shoulders drop ho rahe hain aur chest pe extra space; size down karna padega.
+SYN_R0382,SYN_I00120,2026-09-03,Other,पैंट कमर पर इतनी ढीली है कि बेल्ट लगाकर भी फिसलती रहती है।
+SYN_R0383,SYN_I00124,2026-09-07,Other,यह टॉप कंधों से बहुत ढीला है और बार-बार नीचे खिसकता है।
+SYN_R0384,SYN_I00128,2026-09-11,Other,"Palazzo ka crotch drop aur waist dono extra loose hain, chalne par ajeeb swing hota hai."
+SYN_R0385,SYN_I00947,2026-09-18,quality_defect,"Stitching first wash ke baad khul gayi, cuff literally haath mein aa gaya. Not okay."
+SYN_R0386,SYN_I01390,2026-09-13,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0387,SYN_I01562,2026-09-17,Other,The blouse fabric is transparent in daylight and much thinner than I expected from the description.
+SYN_R0388,SYN_I02633,2026-08-19,wrong_or_missing_item,"Order mein 3 tops the, box mein sirf 2 aaye; yellow wala missing hai."
+SYN_R0389,SYN_I01108,2026-09-11,Other,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0390,SYN_I01116,2026-09-19,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0391,SYN_I02630,2026-08-16,changed_mind,No fault with the skirt; my preferred style changed and I do not want to keep it.
+SYN_R0392,SYN_I01551,2026-09-06,quality_defect,"Pant ka buttonhole closed hi hai, button pass nahi hota; tailor se fix nahi karwana."
+SYN_R0393,SYN_I02503,2026-08-01,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0394,SYN_I04307,2026-08-13,fabric_feel,The fleece lining sheds fibers all over my other clothes and feels unpleasantly coarse.
+SYN_R0395,SYN_I01860,2026-09-07,Other,Received parcel mein meri invoice ke against kisi aur customer ka kurta tha; mera item absent hai.
+SYN_R0396,SYN_I04088,2026-08-18,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0397,SYN_I03050,2026-08-16,Other,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0398,SYN_I00442,2026-09-17,changed_mind,Plans changed and the trip is off; I no longer need the travel set I purchased.
+SYN_R0399,SYN_I00492,2026-09-11,quality_defect,The zipper jams halfway and the teeth split apart; returning this faulty skirt.
+SYN_R0400,SYN_I00153,2026-09-08,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0401,SYN_I00692,2026-09-15,fabric_feel,कपड़ा बहुत खुरदुरा है और त्वचा पर लगातार चुभता है।
+SYN_R0402,SYN_I02996,2026-08-18,wrong_or_missing_item,The parcel contained a men's shirt instead of the women's linen trousers on my order.
+SYN_R0403,SYN_I02849,2026-08-11,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0404,SYN_I01462,2026-09-01,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0405,SYN_I01069,2026-08-31,Other,"Gift recipient already bought the same kurta, so I want to return the sealed duplicate."
+SYN_R0406,SYN_I02604,2026-08-18,Other,"Thread ends har jagah latak rahe, ek seam pehle wear mein hi khul gayi. Quality disappointing."
+SYN_R0407,SYN_I01389,2026-09-12,Other,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0408,SYN_I04089,2026-08-19,fabric_feel,"Kurta ka fabric stiff hai, body pe fall hi nahi karta; soft cotton jaisa bilkul nahi."
+SYN_R0409,SYN_I03641,2026-08-19,wrong_or_missing_item,"मैंने दो जोड़ी मोज़े मँगाए थे, पैकेट में केवल एक जोड़ी मिली।"
+SYN_R0410,SYN_I04166,2026-08-12,Other,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0411,SYN_I02846,2026-08-08,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0412,SYN_I01273,2026-09-08,changed_mind,I picked this on sale then realized I don't actually like wearing long skirts anymore. Nothing wrong with item.
+SYN_R0413,SYN_I03063,2026-08-01,Other,One sleeve seam is unraveling straight out of the parcel. Fit is actually great.
+SYN_R0414,SYN_I01228,2026-09-19,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0415,SYN_I01842,2026-09-17,fabric_feel,"Velvet expect kiya tha, yeh toh stiff canvas jaisa hai; drape hi nahi hota."
+SYN_R0416,SYN_I03638,2026-08-16,wrong_or_missing_item,I paid for the green scarf but got two beige ones and no green scarf at all.
+SYN_R0417,SYN_I01786,2026-09-17,Other,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0418,SYN_I03476,2026-08-22,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0419,SYN_I02442,2026-09-01,Other,अब इस कपड़े की ज़रूरत नहीं है; मैंने दूसरी पोशाक चुन ली है।
+SYN_R0420,SYN_I01188,2026-09-07,quality_defect,"The snap fastening is cracked and cannot stay closed, despite the garment being unworn."
+SYN_R0421,SYN_I03944,2026-08-14,Other,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0422,SYN_I03389,2026-08-19,fabric_feel,"I expected a substantial knit, but this jersey is tissue-thin and clings unpleasantly."
+SYN_R0423,SYN_I01667,2026-09-10,wrong_or_missing_item,Parcel khola toh kurti ke badle ek unrelated pillow cover tha; return arrange karo.
+SYN_R0424,SYN_I00971,2026-09-14,Other,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0425,SYN_I03343,2026-08-01,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0426,SYN_I02326,2026-08-28,Other,"Sister ne same bag gift kar diya, so mera sealed wala extra ho gaya; quality complaint nahi."
+SYN_R0427,SYN_I02757,2026-08-03,Other,कुर्ती का हुक पहली बार पहनते ही टूट गया; कपड़ा ठीक था।
+SYN_R0428,SYN_I01295,2026-09-02,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0429,SYN_I04062,2026-08-20,fabric_feel,Dupatta itna rough hai ki neck pe red marks ho gaye; wash se soften bhi nahi hua.
+SYN_R0430,SYN_I01522,2026-09-05,wrong_or_missing_item,"M order kiya tha, packet mein S tag wala kurta mila. Product wrong sent hai, fit review nahi."
+SYN_R0431,SYN_I03215,2026-08-13,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0432,SYN_I00126,2026-09-09,Other,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0433,SYN_I03469,2026-08-15,changed_mind,"Impulse purchase tha, ghar aake decide kiya ki wardrobe mein already similar jacket hai."
+SYN_R0434,SYN_I00626,2026-09-05,quality_defect,"Seam ke andar needle ka tukda nahi, bas stitches uneven aur kuch jagah missing hain; item reject."
+SYN_R0435,SYN_I00054,2026-09-21,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0436,SYN_I01225,2026-09-16,fabric_feel,स्वेटर का ऊन बहुत चुभता है और बिल्कुल नरम नहीं लगता।
+SYN_R0437,SYN_I02531,2026-08-01,Other,"A belt was listed in this set, but the package has the dress only; belt is missing."
+SYN_R0438,SYN_I04156,2026-08-02,Other,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0439,SYN_I03828,2026-08-10,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0440,SYN_I01889,2026-09-08,changed_mind,"The wedding was called off, and I no longer have a reason to keep the occasion wear."
+SYN_R0441,SYN_I00562,2026-08-28,Other,Buttons aadhe loose hain aur ek missing; wash se pehle hi kapda defected tha.
+SYN_R0442,SYN_I01871,2026-09-18,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0443,SYN_I02590,2026-08-04,fabric_feel,"This denim feels papery and rigid, nothing like the soft broken-in finish I expected."
+SYN_R0444,SYN_I02587,2026-08-01,wrong_or_missing_item,The set should include a jacket and trousers; only the jacket was in the sealed bag.
+SYN_R0445,SYN_I03128,2026-08-10,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0446,SYN_I02141,2026-09-08,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0447,SYN_I00894,2026-09-21,changed_mind,Bought this for a trip that got postponed indefinitely. The unopened dress is no longer needed.
+SYN_R0448,SYN_I03929,2026-07-30,quality_defect,The elastic casing is split open and the waistband elastic is poking out after one gentle wear.
+SYN_R0449,SYN_I02842,2026-08-04,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0450,SYN_I04281,2026-08-15,fabric_feel,"Cotton bola but polyester jaisa slippery feel hai, garmi mein chipak raha. Very disappointing."
+SYN_R0451,SYN_I01436,2026-09-03,Other,"Maine blue size L manga tha, delivered packet mein red size M hai; tag mismatch confirmed."
+SYN_R0452,SYN_I02882,2026-08-16,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0453,SYN_I01194,2026-09-13,Other,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0454,SYN_I01236,2026-08-30,changed_mind,Maine second thought ke baad decide kiya ki party outfit nahi lena; unopened package hai.
+SYN_R0455,SYN_I03577,2026-08-11,Other,"Pocket ka corner properly stitch hi nahi hua, coins daale toh hole se nikal gaye."
+SYN_R0456,SYN_I02803,2026-08-21,Other,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0457,SYN_I04104,2026-08-06,fabric_feel,"Top ka material bahut thin hai, andar ka tag bhi bahar se dikh raha. Not worth it."
+SYN_R0458,SYN_I04148,2026-08-22,Other,"White kurta ke badle black one bhej diya, size tag same hai but color/SKU different."
+SYN_R0459,SYN_I01157,2026-09-04,Other,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0460,SYN_I02263,2026-09-18,Other,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0461,SYN_I02060,2026-09-11,changed_mind,The coat is exactly as described; I simply changed my mind about owning another one.
+SYN_R0462,SYN_I02638,2026-08-24,quality_defect,कपड़े की सिलाई कई जगह से उधड़ रही है और जेब का किनारा खुला है।
+SYN_R0463,SYN_I03026,2026-08-20,Other,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0464,SYN_I03317,2026-08-03,fabric_feel,The sweater yarn is so itchy on my neck that I had to take it off within minutes.
+SYN_R0465,SYN_I02181,2026-09-20,wrong_or_missing_item,Only one shoe arrived from the pair order; the other shoe and its matching mate are absent.
+SYN_R0466,SYN_I02822,2026-08-12,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0467,SYN_I01411,2026-09-06,Other,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0468,SYN_I02301,2026-08-31,changed_mind,"My office switched to a uniform policy, so I have no use for these perfectly fine trousers."
+SYN_R0469,SYN_I03228,2026-08-26,Other,A decorative bead fell off before I even tried the tunic on. Poor finishing.
+SYN_R0470,SYN_I02819,2026-08-09,Other,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0471,SYN_I01727,2026-09-14,fabric_feel,"Satin naam hai but surface bilkul matte, dry aur rough lagti; expected silky touch missing."
+SYN_R0472,SYN_I01187,2026-09-06,Other,The carton had the matching top but not the matching skirt from the two-piece outfit.
+SYN_R0473,SYN_I03181,2026-08-07,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0474,SYN_I01326,2026-09-05,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0475,SYN_I03853,2026-08-07,changed_mind,"Function cancel ho gaya, outfit ki zaroorat nahi rahi. Item unopened hai, bas return karna hai."
+SYN_R0476,SYN_I01621,2026-09-20,Other,"Stitching first wash ke baad khul gayi, cuff literally haath mein aa gaya. Not okay."
+SYN_R0477,SYN_I01616,2026-09-15,Other,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0478,SYN_I04268,2026-08-02,Other,The blouse fabric is transparent in daylight and much thinner than I expected from the description.
+SYN_R0479,SYN_I00844,2026-08-30,wrong_or_missing_item,Label pe SKU 74-B hai but maine 74-A floral dress order ki thi; yeh plain one nahi chahiye.
+SYN_R0480,SYN_I04370,2026-08-20,Other,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0481,SYN_I01879,2026-08-29,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0482,SYN_I02810,2026-07-31,changed_mind,"Order excitement mein kar diya, ab lag raha hai mujhe ye color chahiye hi nahi. Tags attached."
+SYN_R0483,SYN_I02850,2026-08-12,Other,"Pant ka buttonhole closed hi hai, button pass nahi hota; tailor se fix nahi karwana."
+SYN_R0484,SYN_I03402,2026-08-04,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0485,SYN_I04231,2026-08-21,Other,The fleece lining sheds fibers all over my other clothes and feels unpleasantly coarse.
+SYN_R0486,SYN_I03868,2026-08-22,Other,"I selected size 30 trousers, tag says 32. Please don't call it loose fit; wrong label/item sent."
+SYN_R0487,SYN_I01201,2026-09-20,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0488,SYN_I00258,2026-09-01,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0489,SYN_I04278,2026-08-12,changed_mind,मुझे एहसास हुआ कि यह रंग मेरी पसंद का नहीं है; कपड़े में कोई खराबी नहीं।
+SYN_R0490,SYN_I02876,2026-08-10,quality_defect,The zipper jams halfway and the teeth split apart; returning this faulty skirt.
+SYN_R0491,SYN_I00480,2026-08-30,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0492,SYN_I01275,2026-09-10,fabric_feel,कपड़ा बहुत खुरदुरा है और त्वचा पर लगातार चुभता है।
+SYN_R0493,SYN_I04449,2026-08-15,wrong_or_missing_item,"Order mein 3 tops the, box mein sirf 2 aaye; yellow wala missing hai."
+SYN_R0494,SYN_I03689,2026-08-11,Other,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0495,SYN_I01500,2026-09-11,Other,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0496,SYN_I02511,2026-08-09,changed_mind,No fault with the skirt; my preferred style changed and I do not want to keep it.
+SYN_R0497,SYN_I00672,2026-09-23,Other,"Thread ends har jagah latak rahe, ek seam pehle wear mein hi khul gayi. Quality disappointing."
+SYN_R0498,SYN_I03426,2026-07-31,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0499,SYN_I02814,2026-08-04,Other,"Kurta ka fabric stiff hai, body pe fall hi nahi karta; soft cotton jaisa bilkul nahi."
+SYN_R0500,SYN_I00634,2026-09-13,wrong_or_missing_item,Received parcel mein meri invoice ke against kisi aur customer ka kurta tha; mera item absent hai.
+SYN_R0501,SYN_I04118,2026-08-20,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0502,SYN_I01330,2026-09-09,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0503,SYN_I03809,2026-08-19,changed_mind,Plans changed and the trip is off; I no longer need the travel set I purchased.
+SYN_R0504,SYN_I03797,2026-08-07,Other,One sleeve seam is unraveling straight out of the parcel. Fit is actually great.
+SYN_R0505,SYN_I00736,2026-09-03,Other,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0506,SYN_I02993,2026-08-15,fabric_feel,"Velvet expect kiya tha, yeh toh stiff canvas jaisa hai; drape hi nahi hota."
+SYN_R0507,SYN_I02250,2026-09-05,wrong_or_missing_item,The parcel contained a men's shirt instead of the women's linen trousers on my order.
+SYN_R0508,SYN_I02065,2026-09-16,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0509,SYN_I03366,2026-08-24,Other,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0510,SYN_I00742,2026-09-09,changed_mind,"Gift recipient already bought the same kurta, so I want to return the sealed duplicate."
+SYN_R0511,SYN_I03573,2026-08-07,quality_defect,"The snap fastening is cracked and cannot stay closed, despite the garment being unworn."
+SYN_R0512,SYN_I03045,2026-08-11,Other,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0513,SYN_I02808,2026-08-26,fabric_feel,"I expected a substantial knit, but this jersey is tissue-thin and clings unpleasantly."
+SYN_R0514,SYN_I01402,2026-08-28,wrong_or_missing_item,"मैंने दो जोड़ी मोज़े मँगाए थे, पैकेट में केवल एक जोड़ी मिली।"
+SYN_R0515,SYN_I01887,2026-09-06,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0516,SYN_I01866,2026-09-13,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0517,SYN_I01533,2026-09-16,changed_mind,I picked this on sale then realized I don't actually like wearing long skirts anymore. Nothing wrong with item.
+SYN_R0518,SYN_I04387,2026-08-09,quality_defect,कुर्ती का हुक पहली बार पहनते ही टूट गया; कपड़ा ठीक था।
+SYN_R0519,SYN_I00518,2026-09-09,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0520,SYN_I01588,2026-09-15,Other,Dupatta itna rough hai ki neck pe red marks ho gaye; wash se soften bhi nahi hua.
+SYN_R0521,SYN_I03216,2026-08-14,wrong_or_missing_item,I paid for the green scarf but got two beige ones and no green scarf at all.
+SYN_R0522,SYN_I00929,2026-08-31,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0523,SYN_I00896,2026-09-23,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0524,SYN_I04375,2026-08-25,Other,अब इस कपड़े की ज़रूरत नहीं है; मैंने दूसरी पोशाक चुन ली है।
+SYN_R0525,SYN_I02674,2026-08-04,Other,"Seam ke andar needle ka tukda nahi, bas stitches uneven aur kuch jagah missing hain; item reject."
+SYN_R0526,SYN_I02214,2026-08-28,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0527,SYN_I02999,2026-08-21,Other,स्वेटर का ऊन बहुत चुभता है और बिल्कुल नरम नहीं लगता।
+SYN_R0528,SYN_I03688,2026-08-10,Other,Parcel khola toh kurti ke badle ek unrelated pillow cover tha; return arrange karo.
+SYN_R0529,SYN_I03700,2026-08-22,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0530,SYN_I01362,2026-09-13,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0531,SYN_I04476,2026-08-14,Other,"Sister ne same bag gift kar diya, so mera sealed wala extra ho gaya; quality complaint nahi."
+SYN_R0532,SYN_I00855,2026-09-10,quality_defect,Buttons aadhe loose hain aur ek missing; wash se pehle hi kapda defected tha.
+SYN_R0533,SYN_I01584,2026-09-11,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0534,SYN_I02078,2026-09-01,fabric_feel,"This denim feels papery and rigid, nothing like the soft broken-in finish I expected."
+SYN_R0535,SYN_I01395,2026-09-18,wrong_or_missing_item,"M order kiya tha, packet mein S tag wala kurta mila. Product wrong sent hai, fit review nahi."
+SYN_R0536,SYN_I00478,2026-08-28,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0537,SYN_I02338,2026-09-09,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0538,SYN_I03044,2026-08-10,changed_mind,"Impulse purchase tha, ghar aake decide kiya ki wardrobe mein already similar jacket hai."
+SYN_R0539,SYN_I02969,2026-08-19,Other,The elastic casing is split open and the waistband elastic is poking out after one gentle wear.
+SYN_R0540,SYN_I02360,2026-09-03,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0541,SYN_I02122,2026-09-17,fabric_feel,"Cotton bola but polyester jaisa slippery feel hai, garmi mein chipak raha. Very disappointing."
+SYN_R0542,SYN_I01770,2026-09-01,wrong_or_missing_item,"A belt was listed in this set, but the package has the dress only; belt is missing."
+SYN_R0543,SYN_I01131,2026-09-06,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0544,SYN_I00954,2026-08-28,Other,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0545,SYN_I00372,2026-09-03,Other,"The wedding was called off, and I no longer have a reason to keep the occasion wear."
+SYN_R0546,SYN_I03404,2026-08-06,Other,"Pocket ka corner properly stitch hi nahi hua, coins daale toh hole se nikal gaye."
+SYN_R0547,SYN_I02543,2026-08-13,Other,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0548,SYN_I03727,2026-08-21,fabric_feel,"Top ka material bahut thin hai, andar ka tag bhi bahar se dikh raha. Not worth it."
+SYN_R0549,SYN_I00222,2026-09-21,Other,The set should include a jacket and trousers; only the jacket was in the sealed bag.
+SYN_R0550,SYN_I03660,2026-08-10,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0551,SYN_I01613,2026-09-12,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0552,SYN_I02106,2026-09-01,Other,Bought this for a trip that got postponed indefinitely. The unopened dress is no longer needed.
+SYN_R0553,SYN_I00913,2026-09-12,quality_defect,कपड़े की सिलाई कई जगह से उधड़ रही है और जेब का किनारा खुला है।
+SYN_R0554,SYN_I03905,2026-08-03,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0555,SYN_I03519,2026-08-09,fabric_feel,The sweater yarn is so itchy on my neck that I had to take it off within minutes.
+SYN_R0556,SYN_I04180,2026-08-26,wrong_or_missing_item,"Maine blue size L manga tha, delivered packet mein red size M hai; tag mismatch confirmed."
+SYN_R0557,SYN_I01651,2026-09-22,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0558,SYN_I04094,2026-08-24,Other,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0559,SYN_I01114,2026-09-17,Other,Maine second thought ke baad decide kiya ki party outfit nahi lena; unopened package hai.
+SYN_R0560,SYN_I02279,2026-09-06,quality_defect,A decorative bead fell off before I even tried the tunic on. Poor finishing.
+SYN_R0561,SYN_I04246,2026-08-08,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0562,SYN_I01256,2026-09-19,Other,"Satin naam hai but surface bilkul matte, dry aur rough lagti; expected silky touch missing."
+SYN_R0563,SYN_I02239,2026-09-22,wrong_or_missing_item,"White kurta ke badle black one bhej diya, size tag same hai but color/SKU different."
+SYN_R0564,SYN_I04400,2026-08-22,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0565,SYN_I01021,2026-09-08,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0566,SYN_I03723,2026-08-17,changed_mind,The coat is exactly as described; I simply changed my mind about owning another one.
+SYN_R0567,SYN_I04352,2026-08-02,quality_defect,"Stitching first wash ke baad khul gayi, cuff literally haath mein aa gaya. Not okay."
+SYN_R0568,SYN_I01183,2026-09-02,Other,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0569,SYN_I00668,2026-09-19,fabric_feel,The blouse fabric is transparent in daylight and much thinner than I expected from the description.
+SYN_R0570,SYN_I00812,2026-09-23,wrong_or_missing_item,Only one shoe arrived from the pair order; the other shoe and its matching mate are absent.
+SYN_R0571,SYN_I01996,2026-09-03,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0572,SYN_I02762,2026-08-08,Other,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0573,SYN_I01834,2026-09-09,Other,"My office switched to a uniform policy, so I have no use for these perfectly fine trousers."
+SYN_R0574,SYN_I03858,2026-08-12,Other,"Pant ka buttonhole closed hi hai, button pass nahi hota; tailor se fix nahi karwana."
+SYN_R0575,SYN_I01861,2026-09-08,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0576,SYN_I00380,2026-09-11,fabric_feel,The fleece lining sheds fibers all over my other clothes and feels unpleasantly coarse.
+SYN_R0577,SYN_I00879,2026-09-06,wrong_or_missing_item,The carton had the matching top but not the matching skirt from the two-piece outfit.
+SYN_R0578,SYN_I01631,2026-09-02,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0579,SYN_I03508,2026-08-26,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0580,SYN_I00440,2026-09-15,changed_mind,"Function cancel ho gaya, outfit ki zaroorat nahi rahi. Item unopened hai, bas return karna hai."
+SYN_R0581,SYN_I04226,2026-08-16,quality_defect,The zipper jams halfway and the teeth split apart; returning this faulty skirt.
+SYN_R0582,SYN_I01208,2026-08-30,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0583,SYN_I01792,2026-09-23,fabric_feel,कपड़ा बहुत खुरदुरा है और त्वचा पर लगातार चुभता है।
+SYN_R0584,SYN_I03397,2026-07-30,Other,Label pe SKU 74-B hai but maine 74-A floral dress order ki thi; yeh plain one nahi chahiye.
+SYN_R0585,SYN_I04312,2026-08-18,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0586,SYN_I00579,2026-09-14,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0587,SYN_I04026,2026-08-12,Other,"Order excitement mein kar diya, ab lag raha hai mujhe ye color chahiye hi nahi. Tags attached."
+SYN_R0588,SYN_I02595,2026-08-09,Other,"Thread ends har jagah latak rahe, ek seam pehle wear mein hi khul gayi. Quality disappointing."
+SYN_R0589,SYN_I01099,2026-09-02,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0590,SYN_I03566,2026-07-31,fabric_feel,"Kurta ka fabric stiff hai, body pe fall hi nahi karta; soft cotton jaisa bilkul nahi."
+SYN_R0591,SYN_I01300,2026-09-07,Other,"I selected size 30 trousers, tag says 32. Please don't call it loose fit; wrong label/item sent."
+SYN_R0592,SYN_I00968,2026-09-11,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0593,SYN_I02358,2026-09-01,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0594,SYN_I02018,2026-08-28,changed_mind,मुझे एहसास हुआ कि यह रंग मेरी पसंद का नहीं है; कपड़े में कोई खराबी नहीं।
+SYN_R0595,SYN_I00873,2026-08-31,quality_defect,One sleeve seam is unraveling straight out of the parcel. Fit is actually great.
+SYN_R0596,SYN_I03017,2026-08-11,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0597,SYN_I01150,2026-08-28,fabric_feel,"Velvet expect kiya tha, yeh toh stiff canvas jaisa hai; drape hi nahi hota."
+SYN_R0598,SYN_I04119,2026-08-21,wrong_or_missing_item,"Order mein 3 tops the, box mein sirf 2 aaye; yellow wala missing hai."
+SYN_R0599,SYN_I01207,2026-08-29,Other,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0600,SYN_I02357,2026-08-31,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0601,SYN_I02294,2026-09-21,changed_mind,No fault with the skirt; my preferred style changed and I do not want to keep it.
+SYN_R0602,SYN_I03186,2026-08-12,quality_defect,"The snap fastening is cracked and cannot stay closed, despite the garment being unworn."
+SYN_R0603,SYN_I04136,2026-08-10,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0604,SYN_I03414,2026-08-16,Other,"I expected a substantial knit, but this jersey is tissue-thin and clings unpleasantly."
+SYN_R0605,SYN_I02490,2026-09-21,wrong_or_missing_item,Received parcel mein meri invoice ke against kisi aur customer ka kurta tha; mera item absent hai.
+SYN_R0606,SYN_I03576,2026-08-10,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0607,SYN_I04442,2026-08-08,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0608,SYN_I00332,2026-09-19,changed_mind,Plans changed and the trip is off; I no longer need the travel set I purchased.
+SYN_R0609,SYN_I00985,2026-08-31,quality_defect,कुर्ती का हुक पहली बार पहनते ही टूट गया; कपड़ा ठीक था।
+SYN_R0610,SYN_I00244,2026-09-15,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0611,SYN_I03518,2026-08-08,fabric_feel,Dupatta itna rough hai ki neck pe red marks ho gaye; wash se soften bhi nahi hua.
+SYN_R0612,SYN_I02891,2026-08-25,wrong_or_missing_item,The parcel contained a men's shirt instead of the women's linen trousers on my order.
+SYN_R0613,SYN_I03344,2026-08-02,Other,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0614,SYN_I01242,2026-09-05,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0615,SYN_I00238,2026-09-09,changed_mind,"Gift recipient already bought the same kurta, so I want to return the sealed duplicate."
+SYN_R0616,SYN_I00951,2026-09-22,quality_defect,"Seam ke andar needle ka tukda nahi, bas stitches uneven aur kuch jagah missing hain; item reject."
+SYN_R0617,SYN_I01381,2026-09-04,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0618,SYN_I04261,2026-08-23,fabric_feel,स्वेटर का ऊन बहुत चुभता है और बिल्कुल नरम नहीं लगता।
+SYN_R0619,SYN_I03832,2026-08-14,wrong_or_missing_item,"मैंने दो जोड़ी मोज़े मँगाए थे, पैकेट में केवल एक जोड़ी मिली।"
+SYN_R0620,SYN_I01422,2026-09-17,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0621,SYN_I00908,2026-09-07,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0622,SYN_I03364,2026-08-22,changed_mind,I picked this on sale then realized I don't actually like wearing long skirts anymore. Nothing wrong with item.
+SYN_R0623,SYN_I03315,2026-08-01,quality_defect,Buttons aadhe loose hain aur ek missing; wash se pehle hi kapda defected tha.
+SYN_R0624,SYN_I02401,2026-09-16,Other,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0625,SYN_I00654,2026-09-05,fabric_feel,"This denim feels papery and rigid, nothing like the soft broken-in finish I expected."
+SYN_R0626,SYN_I02573,2026-08-15,wrong_or_missing_item,I paid for the green scarf but got two beige ones and no green scarf at all.
+SYN_R0627,SYN_I01967,2026-09-02,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0628,SYN_I01453,2026-09-20,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0629,SYN_I02755,2026-08-01,Other,अब इस कपड़े की ज़रूरत नहीं है; मैंने दूसरी पोशाक चुन ली है।
+SYN_R0630,SYN_I00716,2026-09-11,Other,The elastic casing is split open and the waistband elastic is poking out after one gentle wear.
+SYN_R0631,SYN_I00484,2026-09-03,Other,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0632,SYN_I00965,2026-09-08,fabric_feel,"Cotton bola but polyester jaisa slippery feel hai, garmi mein chipak raha. Very disappointing."
+SYN_R0633,SYN_I01953,2026-09-16,wrong_or_missing_item,Parcel khola toh kurti ke badle ek unrelated pillow cover tha; return arrange karo.
+SYN_R0634,SYN_I03448,2026-08-22,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0635,SYN_I01018,2026-09-05,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0636,SYN_I00980,2026-09-23,changed_mind,"Sister ne same bag gift kar diya, so mera sealed wala extra ho gaya; quality complaint nahi."
+SYN_R0637,SYN_I00946,2026-09-17,quality_defect,"Pocket ka corner properly stitch hi nahi hua, coins daale toh hole se nikal gaye."
+SYN_R0638,SYN_I01106,2026-09-09,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0639,SYN_I00803,2026-09-14,fabric_feel,"Top ka material bahut thin hai, andar ka tag bhi bahar se dikh raha. Not worth it."
+SYN_R0640,SYN_I00837,2026-09-20,wrong_or_missing_item,"M order kiya tha, packet mein S tag wala kurta mila. Product wrong sent hai, fit review nahi."
+SYN_R0641,SYN_I02509,2026-08-07,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0642,SYN_I02869,2026-08-03,Other,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0643,SYN_I04339,2026-08-17,changed_mind,"Impulse purchase tha, ghar aake decide kiya ki wardrobe mein already similar jacket hai."
+SYN_R0644,SYN_I02632,2026-08-18,quality_defect,कपड़े की सिलाई कई जगह से उधड़ रही है और जेब का किनारा खुला है।
+SYN_R0645,SYN_I02468,2026-08-30,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0646,SYN_I01972,2026-09-07,Other,The sweater yarn is so itchy on my neck that I had to take it off within minutes.
+SYN_R0647,SYN_I03988,2026-08-02,Other,"A belt was listed in this set, but the package has the dress only; belt is missing."
+SYN_R0648,SYN_I00670,2026-09-21,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0649,SYN_I03993,2026-08-07,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0650,SYN_I01354,2026-09-05,Other,"The wedding was called off, and I no longer have a reason to keep the occasion wear."
+SYN_R0651,SYN_I02036,2026-09-15,quality_defect,A decorative bead fell off before I even tried the tunic on. Poor finishing.
+SYN_R0652,SYN_I02501,2026-07-30,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0653,SYN_I04343,2026-08-21,fabric_feel,"Satin naam hai but surface bilkul matte, dry aur rough lagti; expected silky touch missing."
+SYN_R0654,SYN_I04206,2026-08-24,Other,The set should include a jacket and trousers; only the jacket was in the sealed bag.
+SYN_R0655,SYN_I03047,2026-08-13,Other,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0656,SYN_I00620,2026-08-30,Other,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0657,SYN_I04393,2026-08-15,changed_mind,Bought this for a trip that got postponed indefinitely. The unopened dress is no longer needed.
+SYN_R0658,SYN_I01089,2026-09-20,Other,"Stitching first wash ke baad khul gayi, cuff literally haath mein aa gaya. Not okay."
+SYN_R0659,SYN_I01490,2026-09-01,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0660,SYN_I02941,2026-08-19,fabric_feel,The blouse fabric is transparent in daylight and much thinner than I expected from the description.
+SYN_R0661,SYN_I02817,2026-08-07,wrong_or_missing_item,"Maine blue size L manga tha, delivered packet mein red size M hai; tag mismatch confirmed."
+SYN_R0662,SYN_I04090,2026-08-20,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0663,SYN_I01534,2026-09-17,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0664,SYN_I03114,2026-08-24,changed_mind,Maine second thought ke baad decide kiya ki party outfit nahi lena; unopened package hai.
+SYN_R0665,SYN_I04143,2026-08-17,quality_defect,"Pant ka buttonhole closed hi hai, button pass nahi hota; tailor se fix nahi karwana."
+SYN_R0666,SYN_I03857,2026-08-11,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0667,SYN_I02002,2026-09-09,fabric_feel,The fleece lining sheds fibers all over my other clothes and feels unpleasantly coarse.
+SYN_R0668,SYN_I00866,2026-09-21,Other,"White kurta ke badle black one bhej diya, size tag same hai but color/SKU different."
+SYN_R0669,SYN_I03396,2026-08-26,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0670,SYN_I04398,2026-08-20,Other,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0671,SYN_I03964,2026-08-06,Other,The coat is exactly as described; I simply changed my mind about owning another one.
+SYN_R0672,SYN_I03623,2026-08-01,quality_defect,The zipper jams halfway and the teeth split apart; returning this faulty skirt.
+SYN_R0673,SYN_I03058,2026-08-24,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0674,SYN_I02957,2026-08-07,fabric_feel,कपड़ा बहुत खुरदुरा है और त्वचा पर लगातार चुभता है।
+SYN_R0675,SYN_I01166,2026-09-13,Other,Only one shoe arrived from the pair order; the other shoe and its matching mate are absent.
+SYN_R0676,SYN_I01768,2026-08-30,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0677,SYN_I00707,2026-09-02,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0678,SYN_I01052,2026-09-11,changed_mind,"My office switched to a uniform policy, so I have no use for these perfectly fine trousers."
+SYN_R0679,SYN_I01511,2026-09-22,quality_defect,"Thread ends har jagah latak rahe, ek seam pehle wear mein hi khul gayi. Quality disappointing."
+SYN_R0680,SYN_I04215,2026-08-05,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0681,SYN_I03995,2026-08-09,fabric_feel,"Kurta ka fabric stiff hai, body pe fall hi nahi karta; soft cotton jaisa bilkul nahi."
+SYN_R0682,SYN_I02352,2026-09-23,wrong_or_missing_item,The carton had the matching top but not the matching skirt from the two-piece outfit.
+SYN_R0683,SYN_I04177,2026-08-23,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0684,SYN_I04376,2026-08-26,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0685,SYN_I03285,2026-07-30,Other,"Function cancel ho gaya, outfit ki zaroorat nahi rahi. Item unopened hai, bas return karna hai."
+SYN_R0686,SYN_I03604,2026-08-10,Other,One sleeve seam is unraveling straight out of the parcel. Fit is actually great.
+SYN_R0687,SYN_I03251,2026-08-21,Other,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0688,SYN_I00706,2026-09-01,fabric_feel,"Velvet expect kiya tha, yeh toh stiff canvas jaisa hai; drape hi nahi hota."
+SYN_R0689,SYN_I04152,2026-08-26,Other,Label pe SKU 74-B hai but maine 74-A floral dress order ki thi; yeh plain one nahi chahiye.
+SYN_R0690,SYN_I02988,2026-08-10,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0691,SYN_I02454,2026-09-13,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0692,SYN_I01073,2026-09-04,changed_mind,"Order excitement mein kar diya, ab lag raha hai mujhe ye color chahiye hi nahi. Tags attached."
+SYN_R0693,SYN_I00992,2026-09-07,quality_defect,"The snap fastening is cracked and cannot stay closed, despite the garment being unworn."
+SYN_R0694,SYN_I00870,2026-08-28,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0695,SYN_I03522,2026-08-12,fabric_feel,"I expected a substantial knit, but this jersey is tissue-thin and clings unpleasantly."
+SYN_R0696,SYN_I03418,2026-08-20,Other,"I selected size 30 trousers, tag says 32. Please don't call it loose fit; wrong label/item sent."
+SYN_R0697,SYN_I03620,2026-08-26,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0698,SYN_I01753,2026-09-12,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0699,SYN_I00284,2026-08-30,Other,मुझे एहसास हुआ कि यह रंग मेरी पसंद का नहीं है; कपड़े में कोई खराबी नहीं।
+SYN_R0700,SYN_I01145,2026-09-20,quality_defect,कुर्ती का हुक पहली बार पहनते ही टूट गया; कपड़ा ठीक था।
+SYN_R0701,SYN_I02174,2026-09-13,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0702,SYN_I03213,2026-08-11,fabric_feel,Dupatta itna rough hai ki neck pe red marks ho gaye; wash se soften bhi nahi hua.
+SYN_R0703,SYN_I01981,2026-09-16,wrong_or_missing_item,"Order mein 3 tops the, box mein sirf 2 aaye; yellow wala missing hai."
+SYN_R0704,SYN_I03411,2026-08-13,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0705,SYN_I01066,2026-08-28,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0706,SYN_I01528,2026-09-11,changed_mind,No fault with the skirt; my preferred style changed and I do not want to keep it.
+SYN_R0707,SYN_I00993,2026-09-08,quality_defect,"Seam ke andar needle ka tukda nahi, bas stitches uneven aur kuch jagah missing hain; item reject."
+SYN_R0708,SYN_I00671,2026-09-22,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0709,SYN_I00564,2026-08-30,Other,स्वेटर का ऊन बहुत चुभता है और बिल्कुल नरम नहीं लगता।
+SYN_R0710,SYN_I03666,2026-08-16,wrong_or_missing_item,Received parcel mein meri invoice ke against kisi aur customer ka kurta tha; mera item absent hai.
+SYN_R0711,SYN_I03184,2026-08-10,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0712,SYN_I02435,2026-09-22,Other,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0713,SYN_I03257,2026-07-30,changed_mind,Plans changed and the trip is off; I no longer need the travel set I purchased.
+SYN_R0714,SYN_I04025,2026-08-11,quality_defect,Buttons aadhe loose hain aur ek missing; wash se pehle hi kapda defected tha.
+SYN_R0715,SYN_I04341,2026-08-19,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0716,SYN_I03324,2026-08-10,fabric_feel,"This denim feels papery and rigid, nothing like the soft broken-in finish I expected."
+SYN_R0717,SYN_I01065,2026-08-27,Other,The parcel contained a men's shirt instead of the women's linen trousers on my order.
+SYN_R0718,SYN_I02201,2026-09-12,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0719,SYN_I02056,2026-09-07,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0720,SYN_I00900,2026-08-30,Other,"Gift recipient already bought the same kurta, so I want to return the sealed duplicate."
+SYN_R0721,SYN_I02433,2026-09-20,quality_defect,The elastic casing is split open and the waistband elastic is poking out after one gentle wear.
+SYN_R0722,SYN_I02729,2026-08-03,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0723,SYN_I00364,2026-09-23,Other,"Cotton bola but polyester jaisa slippery feel hai, garmi mein chipak raha. Very disappointing."
+SYN_R0724,SYN_I04347,2026-08-25,wrong_or_missing_item,"मैंने दो जोड़ी मोज़े मँगाए थे, पैकेट में केवल एक जोड़ी मिली।"
+SYN_R0725,SYN_I02014,2026-09-21,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0726,SYN_I03652,2026-08-02,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0727,SYN_I03132,2026-08-14,Other,I picked this on sale then realized I don't actually like wearing long skirts anymore. Nothing wrong with item.
+SYN_R0728,SYN_I04291,2026-08-25,quality_defect,"Pocket ka corner properly stitch hi nahi hua, coins daale toh hole se nikal gaye."
+SYN_R0729,SYN_I00536,2026-08-30,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0730,SYN_I00691,2026-09-14,fabric_feel,"Top ka material bahut thin hai, andar ka tag bhi bahar se dikh raha. Not worth it."
+SYN_R0731,SYN_I02267,2026-09-22,wrong_or_missing_item,I paid for the green scarf but got two beige ones and no green scarf at all.
+SYN_R0732,SYN_I02766,2026-08-12,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0733,SYN_I01335,2026-09-14,Other,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0734,SYN_I04468,2026-08-06,changed_mind,अब इस कपड़े की ज़रूरत नहीं है; मैंने दूसरी पोशाक चुन ली है।
+SYN_R0735,SYN_I01518,2026-09-01,quality_defect,कपड़े की सिलाई कई जगह से उधड़ रही है और जेब का किनारा खुला है।
+SYN_R0736,SYN_I02445,2026-09-04,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0737,SYN_I03105,2026-08-15,Other,The sweater yarn is so itchy on my neck that I had to take it off within minutes.
+SYN_R0738,SYN_I02892,2026-08-26,wrong_or_missing_item,Parcel khola toh kurti ke badle ek unrelated pillow cover tha; return arrange karo.
+SYN_R0739,SYN_I01779,2026-09-10,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0740,SYN_I04345,2026-08-23,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0741,SYN_I03695,2026-08-17,changed_mind,"Sister ne same bag gift kar diya, so mera sealed wala extra ho gaya; quality complaint nahi."
+SYN_R0742,SYN_I03350,2026-08-08,quality_defect,A decorative bead fell off before I even tried the tunic on. Poor finishing.
+SYN_R0743,SYN_I00596,2026-09-03,Other,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0744,SYN_I01637,2026-09-08,fabric_feel,"Satin naam hai but surface bilkul matte, dry aur rough lagti; expected silky touch missing."
+SYN_R0745,SYN_I00997,2026-09-12,Other,"M order kiya tha, packet mein S tag wala kurta mila. Product wrong sent hai, fit review nahi."
+SYN_R0746,SYN_I02781,2026-07-30,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0747,SYN_I00982,2026-08-28,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0748,SYN_I02088,2026-09-11,Other,"Impulse purchase tha, ghar aake decide kiya ki wardrobe mein already similar jacket hai."
+SYN_R0749,SYN_I01752,2026-09-11,quality_defect,"Stitching first wash ke baad khul gayi, cuff literally haath mein aa gaya. Not okay."
+SYN_R0750,SYN_I03472,2026-08-18,Other,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0751,SYN_I03363,2026-08-21,fabric_feel,The blouse fabric is transparent in daylight and much thinner than I expected from the description.
+SYN_R0752,SYN_I01762,2026-09-21,wrong_or_missing_item,"A belt was listed in this set, but the package has the dress only; belt is missing."
+SYN_R0753,SYN_I00519,2026-09-10,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0754,SYN_I02225,2026-09-08,Other,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0755,SYN_I01760,2026-09-19,changed_mind,"The wedding was called off, and I no longer have a reason to keep the occasion wear."
+SYN_R0756,SYN_I03499,2026-08-17,quality_defect,"Pant ka buttonhole closed hi hai, button pass nahi hota; tailor se fix nahi karwana."
+SYN_R0757,SYN_I03109,2026-08-19,Other,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0758,SYN_I01548,2026-09-03,fabric_feel,The fleece lining sheds fibers all over my other clothes and feels unpleasantly coarse.
+SYN_R0759,SYN_I00643,2026-09-22,Other,The set should include a jacket and trousers; only the jacket was in the sealed bag.
+SYN_R0760,SYN_I03780,2026-08-18,Other,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0761,SYN_I03399,2026-08-01,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0762,SYN_I04300,2026-08-06,changed_mind,Bought this for a trip that got postponed indefinitely. The unopened dress is no longer needed.
+SYN_R0763,SYN_I03603,2026-08-09,quality_defect,The zipper jams halfway and the teeth split apart; returning this faulty skirt.
+SYN_R0764,SYN_I00882,2026-09-09,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0765,SYN_I03923,2026-08-21,fabric_feel,कपड़ा बहुत खुरदुरा है और त्वचा पर लगातार चुभता है।
+SYN_R0766,SYN_I01771,2026-09-02,wrong_or_missing_item,"Maine blue size L manga tha, delivered packet mein red size M hai; tag mismatch confirmed."
+SYN_R0767,SYN_I01118,2026-09-21,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0768,SYN_I02203,2026-09-14,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0769,SYN_I01993,2026-08-31,changed_mind,Maine second thought ke baad decide kiya ki party outfit nahi lena; unopened package hai.
+SYN_R0770,SYN_I03860,2026-08-14,quality_defect,"Thread ends har jagah latak rahe, ek seam pehle wear mein hi khul gayi. Quality disappointing."
+SYN_R0771,SYN_I02076,2026-08-30,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0772,SYN_I01322,2026-09-01,fabric_feel,"Kurta ka fabric stiff hai, body pe fall hi nahi karta; soft cotton jaisa bilkul nahi."
+SYN_R0773,SYN_I03369,2026-07-30,wrong_or_missing_item,"White kurta ke badle black one bhej diya, size tag same hai but color/SKU different."
+SYN_R0774,SYN_I03724,2026-08-18,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0775,SYN_I04087,2026-08-17,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0776,SYN_I01477,2026-09-16,changed_mind,The coat is exactly as described; I simply changed my mind about owning another one.
+SYN_R0777,SYN_I03617,2026-08-23,quality_defect,One sleeve seam is unraveling straight out of the parcel. Fit is actually great.
+SYN_R0778,SYN_I01499,2026-09-10,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0779,SYN_I02853,2026-08-15,Other,"Velvet expect kiya tha, yeh toh stiff canvas jaisa hai; drape hi nahi hota."
+SYN_R0780,SYN_I03878,2026-08-04,wrong_or_missing_item,Only one shoe arrived from the pair order; the other shoe and its matching mate are absent.
+SYN_R0781,SYN_I02565,2026-08-07,Other,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0782,SYN_I03494,2026-08-12,Other,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0783,SYN_I01761,2026-09-20,changed_mind,"My office switched to a uniform policy, so I have no use for these perfectly fine trousers."
+SYN_R0784,SYN_I01872,2026-09-19,quality_defect,"The snap fastening is cracked and cannot stay closed, despite the garment being unworn."
+SYN_R0785,SYN_I01774,2026-09-05,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0786,SYN_I02154,2026-09-21,fabric_feel,"I expected a substantial knit, but this jersey is tissue-thin and clings unpleasantly."
+SYN_R0787,SYN_I02734,2026-08-08,Other,The carton had the matching top but not the matching skirt from the two-piece outfit.
+SYN_R0788,SYN_I01461,2026-08-31,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0789,SYN_I04016,2026-08-02,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0790,SYN_I00904,2026-09-03,Other,"Function cancel ho gaya, outfit ki zaroorat nahi rahi. Item unopened hai, bas return karna hai."
+SYN_R0791,SYN_I03394,2026-08-24,quality_defect,कुर्ती का हुक पहली बार पहनते ही टूट गया; कपड़ा ठीक था।
+SYN_R0792,SYN_I04027,2026-08-13,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0793,SYN_I03204,2026-08-02,Other,Dupatta itna rough hai ki neck pe red marks ho gaye; wash se soften bhi nahi hua.
+SYN_R0794,SYN_I02394,2026-09-09,Other,Label pe SKU 74-B hai but maine 74-A floral dress order ki thi; yeh plain one nahi chahiye.
+SYN_R0795,SYN_I03987,2026-08-01,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0796,SYN_I00833,2026-09-16,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0797,SYN_I00712,2026-09-07,changed_mind,"Order excitement mein kar diya, ab lag raha hai mujhe ye color chahiye hi nahi. Tags attached."
+SYN_R0798,SYN_I02823,2026-08-13,quality_defect,"Seam ke andar needle ka tukda nahi, bas stitches uneven aur kuch jagah missing hain; item reject."
+SYN_R0799,SYN_I00884,2026-09-11,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0800,SYN_I01513,2026-08-27,fabric_feel,स्वेटर का ऊन बहुत चुभता है और बिल्कुल नरम नहीं लगता।
+SYN_R0801,SYN_I03859,2026-08-13,Other,"I selected size 30 trousers, tag says 32. Please don't call it loose fit; wrong label/item sent."
+SYN_R0802,SYN_I02627,2026-08-13,Other,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0803,SYN_I01919,2026-09-10,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0804,SYN_I01645,2026-09-16,changed_mind,मुझे एहसास हुआ कि यह रंग मेरी पसंद का नहीं है; कपड़े में कोई खराबी नहीं।
+SYN_R0805,SYN_I01593,2026-09-20,Other,Buttons aadhe loose hain aur ek missing; wash se pehle hi kapda defected tha.
+SYN_R0806,SYN_I00906,2026-09-05,Other,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0807,SYN_I02197,2026-09-08,Other,"This denim feels papery and rigid, nothing like the soft broken-in finish I expected."
+SYN_R0808,SYN_I03059,2026-08-25,wrong_or_missing_item,"Order mein 3 tops the, box mein sirf 2 aaye; yellow wala missing hai."
+SYN_R0809,SYN_I03076,2026-08-14,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0810,SYN_I01895,2026-09-14,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0811,SYN_I01203,2026-09-22,changed_mind,No fault with the skirt; my preferred style changed and I do not want to keep it.
+SYN_R0812,SYN_I03708,2026-08-02,quality_defect,The elastic casing is split open and the waistband elastic is poking out after one gentle wear.
+SYN_R0813,SYN_I03409,2026-08-11,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0814,SYN_I03241,2026-08-11,fabric_feel,"Cotton bola but polyester jaisa slippery feel hai, garmi mein chipak raha. Very disappointing."
+SYN_R0815,SYN_I02046,2026-08-28,wrong_or_missing_item,Received parcel mein meri invoice ke against kisi aur customer ka kurta tha; mera item absent hai.
+SYN_R0816,SYN_I01837,2026-09-12,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0817,SYN_I04394,2026-08-16,Other,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0818,SYN_I03430,2026-08-04,Other,Plans changed and the trip is off; I no longer need the travel set I purchased.
+SYN_R0819,SYN_I03398,2026-07-31,quality_defect,"Pocket ka corner properly stitch hi nahi hua, coins daale toh hole se nikal gaye."
+SYN_R0820,SYN_I04235,2026-08-25,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0821,SYN_I00915,2026-09-14,Other,"Top ka material bahut thin hai, andar ka tag bhi bahar se dikh raha. Not worth it."
+SYN_R0822,SYN_I02030,2026-09-09,wrong_or_missing_item,The parcel contained a men's shirt instead of the women's linen trousers on my order.
+SYN_R0823,SYN_I00500,2026-09-19,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0824,SYN_I02409,2026-08-27,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0825,SYN_I04066,2026-08-24,Other,"Gift recipient already bought the same kurta, so I want to return the sealed duplicate."
+SYN_R0826,SYN_I03681,2026-08-03,quality_defect,कपड़े की सिलाई कई जगह से उधड़ रही है और जेब का किनारा खुला है।
+SYN_R0827,SYN_I01003,2026-09-18,Other,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0828,SYN_I01495,2026-09-06,fabric_feel,The sweater yarn is so itchy on my neck that I had to take it off within minutes.
+SYN_R0829,SYN_I03227,2026-08-25,wrong_or_missing_item,"मैंने दो जोड़ी मोज़े मँगाए थे, पैकेट में केवल एक जोड़ी मिली।"
+SYN_R0830,SYN_I00679,2026-09-02,Other,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0831,SYN_I01382,2026-09-05,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0832,SYN_I01683,2026-08-29,changed_mind,I picked this on sale then realized I don't actually like wearing long skirts anymore. Nothing wrong with item.
+SYN_R0833,SYN_I04230,2026-08-20,quality_defect,A decorative bead fell off before I even tried the tunic on. Poor finishing.
+SYN_R0834,SYN_I00758,2026-08-28,Other,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0835,SYN_I04377,2026-07-30,fabric_feel,"Satin naam hai but surface bilkul matte, dry aur rough lagti; expected silky touch missing."
+SYN_R0836,SYN_I01468,2026-09-07,Other,I paid for the green scarf but got two beige ones and no green scarf at all.
+SYN_R0837,SYN_I03593,2026-07-30,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0838,SYN_I00454,2026-09-01,Other,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0839,SYN_I03984,2026-08-26,Other,अब इस कपड़े की ज़रूरत नहीं है; मैंने दूसरी पोशाक चुन ली है।
+SYN_R0840,SYN_I02043,2026-09-22,Other,"Stitching first wash ke baad khul gayi, cuff literally haath mein aa gaya. Not okay."
+SYN_R0841,SYN_I00145,2026-08-31,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0842,SYN_I02661,2026-08-19,fabric_feel,The blouse fabric is transparent in daylight and much thinner than I expected from the description.
+SYN_R0843,SYN_I03106,2026-08-16,wrong_or_missing_item,Parcel khola toh kurti ke badle ek unrelated pillow cover tha; return arrange karo.
+SYN_R0844,SYN_I03838,2026-08-20,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0845,SYN_I02985,2026-08-07,Other,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0846,SYN_I02922,2026-07-31,changed_mind,"Sister ne same bag gift kar diya, so mera sealed wala extra ho gaya; quality complaint nahi."
+SYN_R0847,SYN_I03006,2026-07-31,quality_defect,"Pant ka buttonhole closed hi hai, button pass nahi hota; tailor se fix nahi karwana."
+SYN_R0848,SYN_I02028,2026-09-07,Other,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0849,SYN_I01289,2026-08-27,Other,The fleece lining sheds fibers all over my other clothes and feels unpleasantly coarse.
+SYN_R0850,SYN_I01079,2026-09-10,wrong_or_missing_item,"M order kiya tha, packet mein S tag wala kurta mila. Product wrong sent hai, fit review nahi."
+SYN_R0851,SYN_I03873,2026-07-30,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0852,SYN_I03443,2026-08-17,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0853,SYN_I01087,2026-09-18,Other,"Impulse purchase tha, ghar aake decide kiya ki wardrobe mein already similar jacket hai."
+SYN_R0854,SYN_I04222,2026-08-12,quality_defect,The zipper jams halfway and the teeth split apart; returning this faulty skirt.
+SYN_R0855,SYN_I00760,2026-08-30,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0856,SYN_I01794,2026-08-28,fabric_feel,कपड़ा बहुत खुरदुरा है और त्वचा पर लगातार चुभता है।
+SYN_R0857,SYN_I03293,2026-08-07,Other,"A belt was listed in this set, but the package has the dress only; belt is missing."
+SYN_R0858,SYN_I04021,2026-08-07,Other,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0859,SYN_I00611,2026-09-18,Other,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0860,SYN_I01351,2026-09-02,Other,"The wedding was called off, and I no longer have a reason to keep the occasion wear."
+SYN_R0861,SYN_I03323,2026-08-09,Other,"Thread ends har jagah latak rahe, ek seam pehle wear mein hi khul gayi. Quality disappointing."
+SYN_R0862,SYN_I04452,2026-08-18,Other,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0863,SYN_I00404,2026-09-07,fabric_feel,"Kurta ka fabric stiff hai, body pe fall hi nahi karta; soft cotton jaisa bilkul nahi."
+SYN_R0864,SYN_I03254,2026-08-24,Other,The set should include a jacket and trousers; only the jacket was in the sealed bag.
+SYN_R0865,SYN_I01189,2026-09-08,Other,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0866,SYN_I02958,2026-08-08,Other,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0867,SYN_I04181,2026-07-30,changed_mind,Bought this for a trip that got postponed indefinitely. The unopened dress is no longer needed.
+SYN_R0868,SYN_I00300,2026-09-15,quality_defect,One sleeve seam is unraveling straight out of the parcel. Fit is actually great.
+SYN_R0869,SYN_I01172,2026-09-19,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0870,SYN_I01488,2026-08-30,Other,"Velvet expect kiya tha, yeh toh stiff canvas jaisa hai; drape hi nahi hota."
+SYN_R0871,SYN_I00144,2026-08-30,wrong_or_missing_item,"Maine blue size L manga tha, delivered packet mein red size M hai; tag mismatch confirmed."
+SYN_R0872,SYN_I01249,2026-09-12,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0873,SYN_I01910,2026-09-01,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0874,SYN_I02353,2026-08-27,changed_mind,Maine second thought ke baad decide kiya ki party outfit nahi lena; unopened package hai.
+SYN_R0875,SYN_I03713,2026-08-07,Other,"The snap fastening is cracked and cannot stay closed, despite the garment being unworn."
+SYN_R0876,SYN_I03177,2026-08-03,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0877,SYN_I03534,2026-08-24,Other,"I expected a substantial knit, but this jersey is tissue-thin and clings unpleasantly."
+SYN_R0878,SYN_I02327,2026-08-29,wrong_or_missing_item,"White kurta ke badle black one bhej diya, size tag same hai but color/SKU different."
+SYN_R0879,SYN_I00546,2026-09-09,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0880,SYN_I04171,2026-08-17,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0881,SYN_I02516,2026-08-14,changed_mind,The coat is exactly as described; I simply changed my mind about owning another one.
+SYN_R0882,SYN_I02440,2026-08-30,quality_defect,कुर्ती का हुक पहली बार पहनते ही टूट गया; कपड़ा ठीक था।
+SYN_R0883,SYN_I02591,2026-08-05,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0884,SYN_I03268,2026-08-10,fabric_feel,Dupatta itna rough hai ki neck pe red marks ho gaye; wash se soften bhi nahi hua.
+SYN_R0885,SYN_I02904,2026-08-10,wrong_or_missing_item,Only one shoe arrived from the pair order; the other shoe and its matching mate are absent.
+SYN_R0886,SYN_I01662,2026-09-05,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0887,SYN_I04436,2026-08-02,Other,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0888,SYN_I04042,2026-07-31,changed_mind,"My office switched to a uniform policy, so I have no use for these perfectly fine trousers."
+SYN_R0889,SYN_I01550,2026-09-05,Other,"Seam ke andar needle ka tukda nahi, bas stitches uneven aur kuch jagah missing hain; item reject."
+SYN_R0890,SYN_I03146,2026-07-31,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0891,SYN_I03090,2026-07-31,fabric_feel,स्वेटर का ऊन बहुत चुभता है और बिल्कुल नरम नहीं लगता।
+SYN_R0892,SYN_I01954,2026-09-17,wrong_or_missing_item,The carton had the matching top but not the matching skirt from the two-piece outfit.
+SYN_R0893,SYN_I01184,2026-09-03,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0894,SYN_I02751,2026-08-25,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0895,SYN_I02361,2026-09-04,changed_mind,"Function cancel ho gaya, outfit ki zaroorat nahi rahi. Item unopened hai, bas return karna hai."
+SYN_R0896,SYN_I03206,2026-08-04,quality_defect,Buttons aadhe loose hain aur ek missing; wash se pehle hi kapda defected tha.
+SYN_R0897,SYN_I02555,2026-08-25,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0898,SYN_I02649,2026-08-07,fabric_feel,"This denim feels papery and rigid, nothing like the soft broken-in finish I expected."
+SYN_R0899,SYN_I01847,2026-09-22,Other,Label pe SKU 74-B hai but maine 74-A floral dress order ki thi; yeh plain one nahi chahiye.
+SYN_R0900,SYN_I01423,2026-09-18,Other,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0901,SYN_I01285,2026-09-20,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0902,SYN_I03867,2026-08-21,changed_mind,"Order excitement mein kar diya, ab lag raha hai mujhe ye color chahiye hi nahi. Tags attached."
+SYN_R0903,SYN_I03187,2026-08-13,Other,The elastic casing is split open and the waistband elastic is poking out after one gentle wear.
+SYN_R0904,SYN_I02000,2026-09-07,Other,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0905,SYN_I00885,2026-09-12,Other,"Cotton bola but polyester jaisa slippery feel hai, garmi mein chipak raha. Very disappointing."
+SYN_R0906,SYN_I00591,2026-08-29,wrong_or_missing_item,"I selected size 30 trousers, tag says 32. Please don't call it loose fit; wrong label/item sent."
+SYN_R0907,SYN_I02199,2026-09-10,Other,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0908,SYN_I01448,2026-09-15,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0909,SYN_I02939,2026-08-17,changed_mind,मुझे एहसास हुआ कि यह रंग मेरी पसंद का नहीं है; कपड़े में कोई खराबी नहीं।
+SYN_R0910,SYN_I04128,2026-08-02,quality_defect,"Pocket ka corner properly stitch hi nahi hua, coins daale toh hole se nikal gaye."
+SYN_R0911,SYN_I01198,2026-09-17,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0912,SYN_I01412,2026-09-07,fabric_feel,"Top ka material bahut thin hai, andar ka tag bhi bahar se dikh raha. Not worth it."
+SYN_R0913,SYN_I02794,2026-08-12,wrong_or_missing_item,"Order mein 3 tops the, box mein sirf 2 aaye; yellow wala missing hai."
+SYN_R0914,SYN_I02666,2026-08-24,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0915,SYN_I02856,2026-08-18,Other,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0916,SYN_I03517,2026-08-07,Other,No fault with the skirt; my preferred style changed and I do not want to keep it.
+SYN_R0917,SYN_I03305,2026-08-19,quality_defect,कपड़े की सिलाई कई जगह से उधड़ रही है और जेब का किनारा खुला है।
+SYN_R0918,SYN_I01372,2026-09-23,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0919,SYN_I00206,2026-09-05,Other,The sweater yarn is so itchy on my neck that I had to take it off within minutes.
+SYN_R0920,SYN_I01206,2026-08-28,wrong_or_missing_item,Received parcel mein meri invoice ke against kisi aur customer ka kurta tha; mera item absent hai.
+SYN_R0921,SYN_I04457,2026-08-23,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0922,SYN_I02965,2026-08-15,Other,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0923,SYN_I01345,2026-08-27,changed_mind,Plans changed and the trip is off; I no longer need the travel set I purchased.
+SYN_R0924,SYN_I01098,2026-09-01,quality_defect,A decorative bead fell off before I even tried the tunic on. Poor finishing.
+SYN_R0925,SYN_I02928,2026-08-06,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0926,SYN_I03326,2026-08-12,Other,"Satin naam hai but surface bilkul matte, dry aur rough lagti; expected silky touch missing."
+SYN_R0927,SYN_I02896,2026-08-02,wrong_or_missing_item,The parcel contained a men's shirt instead of the women's linen trousers on my order.
+SYN_R0928,SYN_I04219,2026-08-09,Other,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0929,SYN_I02726,2026-07-31,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0930,SYN_I04125,2026-07-30,changed_mind,"Gift recipient already bought the same kurta, so I want to return the sealed duplicate."
+SYN_R0931,SYN_I02102,2026-08-28,quality_defect,"Stitching first wash ke baad khul gayi, cuff literally haath mein aa gaya. Not okay."
+SYN_R0932,SYN_I00400,2026-09-03,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0933,SYN_I02314,2026-09-13,fabric_feel,The blouse fabric is transparent in daylight and much thinner than I expected from the description.
+SYN_R0934,SYN_I00639,2026-09-18,wrong_or_missing_item,"मैंने दो जोड़ी मोज़े मँगाए थे, पैकेट में केवल एक जोड़ी मिली।"
+SYN_R0935,SYN_I02408,2026-09-23,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0936,SYN_I04239,2026-08-01,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0937,SYN_I03796,2026-08-06,Other,I picked this on sale then realized I don't actually like wearing long skirts anymore. Nothing wrong with item.
+SYN_R0938,SYN_I04244,2026-08-06,quality_defect,"Pant ka buttonhole closed hi hai, button pass nahi hota; tailor se fix nahi karwana."
+SYN_R0939,SYN_I03674,2026-08-24,Other,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0940,SYN_I03559,2026-08-21,fabric_feel,The fleece lining sheds fibers all over my other clothes and feels unpleasantly coarse.
+SYN_R0941,SYN_I03773,2026-08-11,wrong_or_missing_item,I paid for the green scarf but got two beige ones and no green scarf at all.
+SYN_R0942,SYN_I02885,2026-08-19,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0943,SYN_I03078,2026-08-16,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0944,SYN_I02821,2026-08-11,changed_mind,अब इस कपड़े की ज़रूरत नहीं है; मैंने दूसरी पोशाक चुन ली है।
+SYN_R0945,SYN_I02487,2026-09-18,quality_defect,The zipper jams halfway and the teeth split apart; returning this faulty skirt.
+SYN_R0946,SYN_I02451,2026-09-10,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0947,SYN_I01284,2026-09-19,Other,कपड़ा बहुत खुरदुरा है और त्वचा पर लगातार चुभता है।
+SYN_R0948,SYN_I00189,2026-09-16,wrong_or_missing_item,Parcel khola toh kurti ke badle ek unrelated pillow cover tha; return arrange karo.
+SYN_R0949,SYN_I00830,2026-09-13,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0950,SYN_I00843,2026-08-29,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0951,SYN_I04237,2026-07-30,Other,"Sister ne same bag gift kar diya, so mera sealed wala extra ho gaya; quality complaint nahi."
+SYN_R0952,SYN_I01840,2026-09-15,quality_defect,"Thread ends har jagah latak rahe, ek seam pehle wear mein hi khul gayi. Quality disappointing."
+SYN_R0953,SYN_I02890,2026-08-24,Other,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0954,SYN_I02283,2026-09-10,fabric_feel,"Kurta ka fabric stiff hai, body pe fall hi nahi karta; soft cotton jaisa bilkul nahi."
+SYN_R0955,SYN_I00818,2026-09-01,wrong_or_missing_item,"M order kiya tha, packet mein S tag wala kurta mila. Product wrong sent hai, fit review nahi."
+SYN_R0956,SYN_I04080,2026-08-10,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0957,SYN_I02196,2026-09-07,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0958,SYN_I01962,2026-08-28,Other,"Impulse purchase tha, ghar aake decide kiya ki wardrobe mein already similar jacket hai."
+SYN_R0959,SYN_I01226,2026-09-17,Other,One sleeve seam is unraveling straight out of the parcel. Fit is actually great.
+SYN_R0960,SYN_I03099,2026-08-09,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0961,SYN_I01435,2026-09-02,Other,"Velvet expect kiya tha, yeh toh stiff canvas jaisa hai; drape hi nahi hota."
+SYN_R0962,SYN_I02641,2026-07-30,Other,"A belt was listed in this set, but the package has the dress only; belt is missing."
+SYN_R0963,SYN_I02732,2026-08-06,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0964,SYN_I03403,2026-08-05,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0965,SYN_I04265,2026-07-30,changed_mind,"The wedding was called off, and I no longer have a reason to keep the occasion wear."
+SYN_R0966,SYN_I00640,2026-09-19,quality_defect,"The snap fastening is cracked and cannot stay closed, despite the garment being unworn."
+SYN_R0967,SYN_I02034,2026-09-13,Other,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0968,SYN_I04071,2026-08-01,fabric_feel,"I expected a substantial knit, but this jersey is tissue-thin and clings unpleasantly."
+SYN_R0969,SYN_I00558,2026-09-21,wrong_or_missing_item,The set should include a jacket and trousers; only the jacket was in the sealed bag.
+SYN_R0970,SYN_I01340,2026-09-19,Other,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0971,SYN_I01527,2026-09-10,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0972,SYN_I03104,2026-08-14,Other,Bought this for a trip that got postponed indefinitely. The unopened dress is no longer needed.
+SYN_R0973,SYN_I02132,2026-08-30,quality_defect,कुर्ती का हुक पहली बार पहनते ही टूट गया; कपड़ा ठीक था।
+SYN_R0974,SYN_I02554,2026-08-24,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0975,SYN_I00523,2026-09-14,Other,Dupatta itna rough hai ki neck pe red marks ho gaye; wash se soften bhi nahi hua.
+SYN_R0976,SYN_I03535,2026-08-25,wrong_or_missing_item,"Maine blue size L manga tha, delivered packet mein red size M hai; tag mismatch confirmed."
+SYN_R0977,SYN_I00094,2026-09-05,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0978,SYN_I04450,2026-08-16,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0979,SYN_I01708,2026-09-23,changed_mind,Maine second thought ke baad decide kiya ki party outfit nahi lena; unopened package hai.
+SYN_R0980,SYN_I03816,2026-08-26,Other,"Seam ke andar needle ka tukda nahi, bas stitches uneven aur kuch jagah missing hain; item reject."
+SYN_R0981,SYN_I03299,2026-08-13,Other,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0982,SYN_I03262,2026-08-04,Other,स्वेटर का ऊन बहुत चुभता है और बिल्कुल नरम नहीं लगता।
+SYN_R0983,SYN_I00991,2026-09-06,wrong_or_missing_item,"White kurta ke badle black one bhej diya, size tag same hai but color/SKU different."
+SYN_R0984,SYN_I04185,2026-08-03,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0985,SYN_I03138,2026-08-20,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R0986,SYN_I00989,2026-09-04,changed_mind,The coat is exactly as described; I simply changed my mind about owning another one.
+SYN_R0987,SYN_I04358,2026-08-08,quality_defect,Buttons aadhe loose hain aur ek missing; wash se pehle hi kapda defected tha.
+SYN_R0988,SYN_I03488,2026-08-06,Other,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R0989,SYN_I01961,2026-08-27,fabric_feel,"This denim feels papery and rigid, nothing like the soft broken-in finish I expected."
+SYN_R0990,SYN_I02685,2026-08-15,Other,Only one shoe arrived from the pair order; the other shoe and its matching mate are absent.
+SYN_R0991,SYN_I02101,2026-08-27,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R0992,SYN_I01363,2026-09-14,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R0993,SYN_I02439,2026-08-29,changed_mind,"My office switched to a uniform policy, so I have no use for these perfectly fine trousers."
+SYN_R0994,SYN_I00535,2026-08-29,quality_defect,The elastic casing is split open and the waistband elastic is poking out after one gentle wear.
+SYN_R0995,SYN_I01734,2026-09-21,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R0996,SYN_I03382,2026-08-12,fabric_feel,"Cotton bola but polyester jaisa slippery feel hai, garmi mein chipak raha. Very disappointing."
+SYN_R0997,SYN_I04100,2026-08-02,wrong_or_missing_item,The carton had the matching top but not the matching skirt from the two-piece outfit.
+SYN_R0998,SYN_I02594,2026-08-08,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R0999,SYN_I03850,2026-08-04,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R1000,SYN_I02281,2026-09-08,changed_mind,"Function cancel ho gaya, outfit ki zaroorat nahi rahi. Item unopened hai, bas return karna hai."
+SYN_R1001,SYN_I04029,2026-08-15,quality_defect,"Pocket ka corner properly stitch hi nahi hua, coins daale toh hole se nikal gaye."
+SYN_R1002,SYN_I04217,2026-08-07,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R1003,SYN_I04302,2026-08-08,Other,"Top ka material bahut thin hai, andar ka tag bhi bahar se dikh raha. Not worth it."
+SYN_R1004,SYN_I02515,2026-08-13,wrong_or_missing_item,Label pe SKU 74-B hai but maine 74-A floral dress order ki thi; yeh plain one nahi chahiye.
+SYN_R1005,SYN_I04257,2026-08-19,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R1006,SYN_I01563,2026-09-18,Other,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R1007,SYN_I02710,2026-08-12,changed_mind,"Order excitement mein kar diya, ab lag raha hai mujhe ye color chahiye hi nahi. Tags attached."
+SYN_R1008,SYN_I03839,2026-08-21,quality_defect,कपड़े की सिलाई कई जगह से उधड़ रही है और जेब का किनारा खुला है।
+SYN_R1009,SYN_I00240,2026-09-11,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R1010,SYN_I00436,2026-09-11,Other,The sweater yarn is so itchy on my neck that I had to take it off within minutes.
+SYN_R1011,SYN_I03281,2026-08-23,wrong_or_missing_item,"I selected size 30 trousers, tag says 32. Please don't call it loose fit; wrong label/item sent."
+SYN_R1012,SYN_I03368,2026-08-26,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R1013,SYN_I00775,2026-09-14,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R1014,SYN_I02407,2026-09-22,changed_mind,मुझे एहसास हुआ कि यह रंग मेरी पसंद का नहीं है; कपड़े में कोई खराबी नहीं।
+SYN_R1015,SYN_I03731,2026-08-25,quality_defect,A decorative bead fell off before I even tried the tunic on. Poor finishing.
+SYN_R1016,SYN_I04126,2026-07-31,Other,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R1017,SYN_I01677,2026-09-20,fabric_feel,"Satin naam hai but surface bilkul matte, dry aur rough lagti; expected silky touch missing."
+SYN_R1018,SYN_I01946,2026-09-09,wrong_or_missing_item,"Order mein 3 tops the, box mein sirf 2 aaye; yellow wala missing hai."
+SYN_R1019,SYN_I01410,2026-09-05,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R1020,SYN_I00136,2026-09-19,Other,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R1021,SYN_I03261,2026-08-03,changed_mind,No fault with the skirt; my preferred style changed and I do not want to keep it.
+SYN_R1022,SYN_I04213,2026-08-03,Other,"Stitching first wash ke baad khul gayi, cuff literally haath mein aa gaya. Not okay."
+SYN_R1023,SYN_I00575,2026-09-10,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R1024,SYN_I02220,2026-09-03,fabric_feel,The blouse fabric is transparent in daylight and much thinner than I expected from the description.
+SYN_R1025,SYN_I01211,2026-09-02,Other,Received parcel mein meri invoice ke against kisi aur customer ka kurta tha; mera item absent hai.
+SYN_R1026,SYN_I01171,2026-09-18,Other,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R1027,SYN_I01311,2026-09-18,Other,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R1028,SYN_I03365,2026-08-23,changed_mind,Plans changed and the trip is off; I no longer need the travel set I purchased.
+SYN_R1029,SYN_I02205,2026-09-16,quality_defect,"Pant ka buttonhole closed hi hai, button pass nahi hota; tailor se fix nahi karwana."
+SYN_R1030,SYN_I04380,2026-08-02,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R1031,SYN_I01085,2026-09-16,fabric_feel,The fleece lining sheds fibers all over my other clothes and feels unpleasantly coarse.
+SYN_R1032,SYN_I03762,2026-07-31,Other,The parcel contained a men's shirt instead of the women's linen trousers on my order.
+SYN_R1033,SYN_I01543,2026-08-29,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R1034,SYN_I02561,2026-08-03,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R1035,SYN_I02129,2026-08-27,changed_mind,"Gift recipient already bought the same kurta, so I want to return the sealed duplicate."
+SYN_R1036,SYN_I01958,2026-09-21,Other,The zipper jams halfway and the teeth split apart; returning this faulty skirt.
+SYN_R1037,SYN_I04490,2026-07-31,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R1038,SYN_I01304,2026-09-11,fabric_feel,कपड़ा बहुत खुरदुरा है और त्वचा पर लगातार चुभता है।
+SYN_R1039,SYN_I00715,2026-09-10,Other,"मैंने दो जोड़ी मोज़े मँगाए थे, पैकेट में केवल एक जोड़ी मिली।"
+SYN_R1040,SYN_I00961,2026-09-04,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R1041,SYN_I02011,2026-09-18,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R1042,SYN_I02384,2026-08-30,changed_mind,I picked this on sale then realized I don't actually like wearing long skirts anymore. Nothing wrong with item.
+SYN_R1043,SYN_I03759,2026-08-25,Other,"Thread ends har jagah latak rahe, ek seam pehle wear mein hi khul gayi. Quality disappointing."
+SYN_R1044,SYN_I02062,2026-09-13,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R1045,SYN_I02234,2026-09-17,fabric_feel,"Kurta ka fabric stiff hai, body pe fall hi nahi karta; soft cotton jaisa bilkul nahi."
+SYN_R1046,SYN_I03793,2026-08-03,wrong_or_missing_item,I paid for the green scarf but got two beige ones and no green scarf at all.
+SYN_R1047,SYN_I02296,2026-09-23,Other,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R1048,SYN_I01516,2026-08-30,delivery_delay,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R1049,SYN_I01061,2026-09-20,changed_mind,अब इस कपड़े की ज़रूरत नहीं है; मैंने दूसरी पोशाक चुन ली है।
+SYN_R1050,SYN_I03454,2026-07-31,quality_defect,One sleeve seam is unraveling straight out of the parcel. Fit is actually great.
+SYN_R1051,SYN_I03615,2026-08-21,colour_or_look_mismatch,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R1052,SYN_I02574,2026-08-16,Other,"Velvet expect kiya tha, yeh toh stiff canvas jaisa hai; drape hi nahi hota."
+SYN_R1053,SYN_I03910,2026-08-08,wrong_or_missing_item,Parcel khola toh kurti ke badle ek unrelated pillow cover tha; return arrange karo.
+SYN_R1054,SYN_I03436,2026-08-10,Other,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R1055,SYN_I04455,2026-08-21,Other,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R1056,SYN_I03352,2026-08-10,Other,"Sister ne same bag gift kar diya, so mera sealed wala extra ho gaya; quality complaint nahi."
+SYN_R1057,SYN_I02606,2026-08-20,Other,"The snap fastening is cracked and cannot stay closed, despite the garment being unworn."
+SYN_R1058,SYN_I03432,2026-08-06,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R1059,SYN_I00254,2026-08-28,fabric_feel,"I expected a substantial knit, but this jersey is tissue-thin and clings unpleasantly."
+SYN_R1060,SYN_I00678,2026-09-01,wrong_or_missing_item,"M order kiya tha, packet mein S tag wala kurta mila. Product wrong sent hai, fit review nahi."
+SYN_R1061,SYN_I02608,2026-08-22,Other,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R1062,SYN_I02023,2026-09-02,Other,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R1063,SYN_I00944,2026-09-15,changed_mind,"Impulse purchase tha, ghar aake decide kiya ki wardrobe mein already similar jacket hai."
+SYN_R1064,SYN_I02383,2026-08-29,quality_defect,कुर्ती का हुक पहली बार पहनते ही टूट गया; कपड़ा ठीक था।
+SYN_R1065,SYN_I02585,2026-07-30,Other,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R1066,SYN_I04092,2026-08-22,fabric_feel,Dupatta itna rough hai ki neck pe red marks ho gaye; wash se soften bhi nahi hua.
+SYN_R1067,SYN_I03284,2026-08-26,Other,"A belt was listed in this set, but the package has the dress only; belt is missing."
+SYN_R1068,SYN_I03836,2026-08-18,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R1069,SYN_I03319,2026-08-05,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R1070,SYN_I02546,2026-08-16,Other,"The wedding was called off, and I no longer have a reason to keep the occasion wear."
+SYN_R1071,SYN_I00931,2026-09-02,quality_defect,"Seam ke andar needle ka tukda nahi, bas stitches uneven aur kuch jagah missing hain; item reject."
+SYN_R1072,SYN_I00504,2026-09-23,colour_or_look_mismatch,I expected matte black but this shiny navy finish catches every light. Not the pictured look.
+SYN_R1073,SYN_I01702,2026-09-17,Other,स्वेटर का ऊन बहुत चुभता है और बिल्कुल नरम नहीं लगता।
+SYN_R1074,SYN_I02481,2026-09-12,Other,The set should include a jacket and trousers; only the jacket was in the sealed bag.
+SYN_R1075,SYN_I01237,2026-08-31,damaged_in_transit,पार्सल का कोना फटा हुआ आया और अंदर की जैकेट की आस्तीन भी कट गई थी।
+SYN_R1076,SYN_I04489,2026-07-30,Other,"दो दिन में पहुँचने का वादा था, मगर कपड़े बारह दिन बाद आए।"
+SYN_R1077,SYN_I00822,2026-09-05,changed_mind,Bought this for a trip that got postponed indefinitely. The unopened dress is no longer needed.
+SYN_R1078,SYN_I04369,2026-08-19,quality_defect,Buttons aadhe loose hain aur ek missing; wash se pehle hi kapda defected tha.
+SYN_R1079,SYN_I03930,2026-07-31,Other,"तस्वीर में हल्का गुलाबी था, मिला हुआ टॉप चमकीला नारंगी है।"
+SYN_R1080,SYN_I02324,2026-09-23,Other,"This denim feels papery and rigid, nothing like the soft broken-in finish I expected."
+SYN_R1081,SYN_I01154,2026-09-01,wrong_or_missing_item,"Maine blue size L manga tha, delivered packet mein red size M hai; tag mismatch confirmed."
+SYN_R1082,SYN_I03788,2026-08-26,damaged_in_transit,"Delivery ke baad open carton mila, packing paper soggy tha aur dupatta pe brown water mark hai."
+SYN_R1083,SYN_I01966,2026-09-01,delivery_delay,"Raksha event ke liye mangaya tha, delivery uske baad hui; ab gift rakhne ka point nahi."
+SYN_R1084,SYN_I03318,2026-08-04,changed_mind,Maine second thought ke baad decide kiya ki party outfit nahi lena; unopened package hai.
+SYN_R1085,SYN_I00132,2026-09-15,Other,
+SYN_R1086,SYN_I00140,2026-09-23,Other,size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai size chhota hai 
+SYN_R1087,SYN_I00148,2026-09-03,changed_mind,
+SYN_R1088,SYN_I04501,2026-09-24,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R1089,SYN_I04701,2026-06-19,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
+SYN_R1090,SYN_I00152,2026-10-04,Other,"Cute top, but shoulders squeeze karte hain and arms upar karna mushkil; baaki design accha."
