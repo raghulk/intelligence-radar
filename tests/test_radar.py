@@ -376,15 +376,28 @@ def test_ui_missing_data_and_human_approval(tmp_path):
         app.run_ui(None, "2026-09-06", 7, 0, 1, 25, 4, 10, {})
     session = {
         "result": {
-            "notes": [{"group_id": "G1", "note": "Draft", "status": "Pending approval"}],
+            "notes": [
+                {
+                    "group_id": "G1",
+                    "note": "Draft",
+                    "status": "Pending approval",
+                    "reason": "Pending approval",
+                }
+            ],
             "approvals": [],
         }
     }
     state, notes, message, filename = app.approve_note(session, "G1", "Approved wording")
     assert notes.iloc[0]["Decision"] == "Approved in report"
+    assert notes.iloc[0]["Reason"] == message
     assert "Nothing was published" in message
     with open(filename) as report:
-        assert json.load(report)["approvals"][0]["group_id"] == "G1"
+        exported = json.load(report)
+    assert exported["approvals"][0]["group_id"] == "G1"
+    assert exported["notes"][0]["reason"] == message
+    with pytest.raises(gr.Error, match="not eligible for approval"):
+        app.approve_note(state, "G1", "Approved again")
+    assert len(state["result"]["approvals"]) == 1
 
 
 def test_real_model_chain_configuration_without_network(monkeypatch):

@@ -13,6 +13,8 @@ pinned: false
 
 Intelligence Radar helps **Neha, Category Head at Dhaga & Co.**, find vendor/category/size groups behind fit-related returns hidden in "Other." It turns return comments and supporting reviews into a weekly brief, traceable classifications and optional product-page size-note drafts.
 
+**Live demo:** https://intelligence-radar.onrender.com/ (login required; the owner shares access securely). Use synthetic CSV data. Render Free may need a minute or more to wake after inactivity.
+
 The client brief reports 31% returns and 44% of return reasons marked Other. This MVP tests whether existing feedback can support better vendor-fit decisions. It does not prove that recommendations reduce returns.
 
 ## For Neha
@@ -95,4 +97,6 @@ Separate live replays verified a five-finding brief and, after correcting confli
 
 The repository includes the [discovery note](docs/discovery-note.md), [two-page-target build note](docs/build-note.md), developer guide and user guide. The public [Hugging Face Space](https://huggingface.co/spaces/raghulkrishnan/intelligence-radar) is **paused, not a working deployment**: its build succeeds, but ZeroGPU requires a real GPU function and this app calls remote models. CPU Basic requires an eligible account/plan. No paid hardware or subscription was purchased.
 
-Recommended free alternative: [Render Free web service](https://render.com/docs/free), which runs the existing Python/Gradio server. A Render account and deployment verification are still required; no Render URL is claimed. Free services sleep after 15 minutes idle, have 512 MB RAM and temporary files, and may be suspended at usage limits. OpenRouter calls remain paid. See the [deployment guide](docs/developer-guide.md#free-hosting-alternative).
+The [Render Free demo](https://intelligence-radar.onrender.com/) is verified with login, CSV validation, two classification requests, brief writing, an eligible size note, report-only approval and JSON export. The small test considered 37 comments, held none for review and cost **INR 0.1689648 provider usage**; note confidence was 0.85. It is a workflow smoke test, not a new accuracy benchmark or a 5,000-item cloud load test.
+
+Free services sleep after 15 minutes idle, have 512 MB RAM and temporary files, and may be suspended at usage limits. OpenRouter calls remain paid. See the [deployment guide](docs/developer-guide.md#free-hosting-alternative).

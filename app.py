@@ -412,6 +412,7 @@ def approve_note(session, group_id, text):
         raise gr.Error("This note is not eligible for approval.")
     note["note"] = text.strip()
     note["status"] = "Approved"
+    note["reason"] = "Note approved for export. Nothing was published."
     result["approvals"].append(
         {
             "group_id": group_id,
@@ -422,7 +423,7 @@ def approve_note(session, group_id, text):
     return (
         session,
         display_notes(result),
-        "Note approved for export. Nothing was published.",
+        note["reason"],
         export_report(result),
     )
 

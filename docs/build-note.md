@@ -6,7 +6,7 @@ Neha can inspect every in-window return claim by vendor, compare fit rates, read
 
 Five tables serve CSV and read-only Postgres: vendors, products, physical items, returns and reviews. The stress profile contains 5,000 items, 1,090 returns and 97 reviews: 55.05% Other versus the client's stated 44%. Adapter equality is verified. Original inputs/results remain frozen. Fourteen-day maturity is an assumption, not policy.
 
-Offline tests cover contracts, gates, cohorts, writers and saved-UI scoring. Fifteen malformed uploads fail visibly. The stress-profile run produced a valid brief; an eligible note was verified separately. HF's build succeeds, but ZeroGPU rejects this CPU-only app; the Space is paused. Dependencies use uv.
+All 52 offline tests pass, covering contracts, gates, cohorts, writers, approval and saved-UI scoring. Fifteen malformed uploads fail visibly. The stress-profile run produced a valid brief; an eligible note was verified separately. Render's small CSV workflow is verified; the incompatible HF ZeroGPU Space remains paused. Dependencies use uv.
 
 ## Code Versus Model
 
@@ -55,4 +55,6 @@ Startup then failed with `No @spaces.GPU function detected during startup`. The 
 
 ## Deployment and Handoff
 
-README, lockfile, runtime requirements, guides and discovery note are included. Credentials stay in server secrets, never Git. HF Space [raghulkrishnan/intelligence-radar](https://huggingface.co/spaces/raghulkrishnan/intelligence-radar) is paused pending eligible CPU hosting. Render Free is the recommended alternative, with cold starts and temporary state; it is not yet deployed. No working public URL is claimed. Neha owns decisions; developers own maintenance.
+Verified demo: https://intelligence-radar.onrender.com/ on Render Free, Python 3.12.12 and CSV mode. Login, validation, two classifications, a brief, one 0.85-confidence note, report-only approval and JSON export pass. The 37-comment smoke test costs **INR 0.1689648 provider usage**, not a new accuracy benchmark. Approval's stale "Pending approval" reason was fixed with an existing-test regression; repeat approval remains rejected.
+
+README, lockfile, runtime requirements, guides and discovery note are included. Credentials stay in server secrets, never Git. HF remains paused. Free hosting has cold starts and temporary state; the full 5,000-item profile is not cloud load-tested. GitHub updates require Manual Deploy. Neha owns decisions; developers own maintenance.
