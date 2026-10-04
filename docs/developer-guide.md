@@ -175,6 +175,8 @@ Create a **Gradio** Space with CPU Basic or the account's available free ZeroGPU
 
 Use an explicitly supported [ZeroGPU Python version](https://huggingface.co/docs/hub/spaces-zerogpu#supported-versions). Requesting 3.11 caused a fallback to 3.10.13 and NumPy installation failure. The supported 3.12.12 runtime preserves the project's Python 3.11 minimum and existing dependencies.
 
+Hugging Face installs `gradio[oauth,mcp]` automatically. Its MCP extra requires Pydantic at most 2.12.5, so the project pins 2.12.5 and exports the matching lockfile. All 52 contract tests pass with this host-compatible pin; confidence, evidence and approval rules remain unchanged.
+
 Use CSV mode. Do not copy `DATABASE_URL` or point the cloud app at your Mac. Hugging Face permits outbound ports 80/443/8080, not Postgres 5432; the existing psycopg adapter cannot use a database's HTTP API. The default disk and Gradio sessions are temporary.
 
 Add non-sensitive model settings, prices, exchange rate and writer limits as Space **Variables** using the defaults above. Leave `PORT` unset or 7860. Regenerate runtime requirements after dependency changes:

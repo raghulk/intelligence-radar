@@ -147,7 +147,7 @@ psycopg==3.3.6
     # via intelligence-radar
 psycopg-binary==3.3.6 ; implementation_name != 'pypy'
     # via psycopg
-pydantic==2.13.5
+pydantic==2.12.5
     # via
     #   fastapi
     #   gradio
@@ -155,7 +155,7 @@ pydantic==2.13.5
     #   langchain-core
     #   langsmith
     #   openai
-pydantic-core==2.46.5
+pydantic-core==2.41.5
     # via pydantic
 pydub==0.25.1
     # via gradio

@@ -9,7 +9,7 @@ dependencies = [
 	"langchain-openai==1.6.7",
 	"pandas==2.3.3",
 	"psycopg[binary]==3.3.6",
-	"pydantic==2.13.5",
+	"pydantic==2.12.5",
 	"python-dotenv==1.2.4",
 	"tiktoken==0.14.0",
 ]

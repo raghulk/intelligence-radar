@@ -49,7 +49,7 @@ The old writer's 2,000-token cap was insufficient for reasoning. Brief replay su
 
 Safe diagnostics and batch/stage progress expose failures. Earlier missing exception details remain unrecoverable. The prior cohort is a date control, not realistic historical feedback.
 
-ZeroGPU rejected the requested Python 3.11 runtime and fell back to 3.10, breaking NumPy installation. Selecting supported 3.12.12 fixed runtime compatibility; 52 offline tests pass there without dependency downgrades or paid hardware.
+ZeroGPU's unsupported Python 3.11 request fell back to 3.10, breaking NumPy installation. Supported 3.12.12 fixes that. HF also adds Gradio's MCP extra, requiring Pydantic <=2.12.5; the compatible pin passes all 52 tests on local/cloud-target Python without changing gates or purchasing hardware.
 
 ## Deployment and Handoff
 
