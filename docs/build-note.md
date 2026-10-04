@@ -6,7 +6,7 @@ Neha can inspect every in-window return claim by vendor, compare fit rates, read
 
 Five tables serve CSV and read-only Postgres: vendors, products, physical items, returns and reviews. The stress profile contains 5,000 items, 1,090 returns and 97 reviews: 55.05% Other versus the client's stated 44%. Adapter equality is verified. Original inputs/results remain frozen. Fourteen-day maturity is an assumption, not policy.
 
-Offline tests cover contracts, gates, cache, outages, cohorts, vendor inspection, writers and saved-UI scoring. Fifteen malformed uploads fail visibly. The stress-profile UI run produced a valid brief; an eligible note was verified separately. A public free ZeroGPU Space is created; deployment verification is in progress. Dependencies use uv.
+Offline tests cover contracts, gates, cohorts, writers and saved-UI scoring. Fifteen malformed uploads fail visibly. The stress-profile run produced a valid brief; an eligible note was verified separately. HF's build succeeds, but ZeroGPU rejects this CPU-only app; the Space is paused. Dependencies use uv.
 
 ## Code Versus Model
 
@@ -51,6 +51,8 @@ Safe diagnostics and batch/stage progress expose failures. Earlier missing excep
 
 ZeroGPU's unsupported Python 3.11 request fell back to 3.10, breaking NumPy installation. Supported 3.12.12 fixes that. HF also adds Gradio's MCP extra, requiring Pydantic <=2.12.5; the compatible pin passes all 52 tests on local/cloud-target Python without changing gates or purchasing hardware.
 
+Startup then failed with `No @spaces.GPU function detected during startup`. The app uses remote models, not local GPU inference. The Space was paused instead of adding a fake GPU task or purchasing a plan.
+
 ## Deployment and Handoff
 
-README, lockfile, runtime requirements, guides and discovery note are included. Credentials stay in local environment/Space Secrets, never Git. Cloud uses CSV; local Postgres is unreachable and 5432 is blocked. Space storage is temporary; protect provider spending. Public Space [raghulkrishnan/intelligence-radar](https://huggingface.co/spaces/raghulkrishnan/intelligence-radar) is created; verification is in progress. Public reviewers need no HF invitation; app authentication is separate. Neha owns decisions; developers own maintenance.
+README, lockfile, runtime requirements, guides and discovery note are included. Credentials stay in server secrets, never Git. HF Space [raghulkrishnan/intelligence-radar](https://huggingface.co/spaces/raghulkrishnan/intelligence-radar) is paused pending eligible CPU hosting. Render Free is the recommended alternative, with cold starts and temporary state; it is not yet deployed. No working public URL is claimed. Neha owns decisions; developers own maintenance.

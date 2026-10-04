@@ -160,7 +160,7 @@ The verified size-note replay used current matching quotes, confidence 0.82, 53.
 
 ## Hugging Face Deployment
 
-Public Space [raghulkrishnan/intelligence-radar](https://huggingface.co/spaces/raghulkrishnan/intelligence-radar) has been created using this account's free ZeroGPU allowance; source/startup verification is in progress. No paid hardware was purchased. This app calls remote models and does not require a GPU allocation.
+Public Space [raghulkrishnan/intelligence-radar](https://huggingface.co/spaces/raghulkrishnan/intelligence-radar) was created using this account's free ZeroGPU allowance. The dependency build succeeds and Gradio starts, but the platform stops it with `No @spaces.GPU function detected during startup`. The Space is paused, not a working deployment. This app calls remote models; adding a dummy GPU function is not a suitable workaround. No paid hardware or subscription was purchased.
 
 For another deployment, required from the owner:
 
@@ -171,7 +171,7 @@ For another deployment, required from the owner:
 
 Never send passwords or tokens through chat. For automated publishing, authenticate locally with a fine-grained Hugging Face write token scoped to the Space; keep it out of code and Git remotes. The local OpenRouter configuration is not automatically copied to the cloud.
 
-Create a **Gradio** Space with CPU Basic or the account's available free ZeroGPU option. Push only reviewed repository files, not the working folder containing secrets/environments. The root [README](../README.md) selects Gradio 6.29.1, Python 3.12.12 and [app.py](../app.py); [requirements.txt](../requirements.txt) supplies runtime dependencies. GitHub pushes do not automatically deploy to Hugging Face: publishing/synchronization is a separate step.
+For this CPU-only app, use **Gradio with CPU Basic** on an eligible account, not ZeroGPU. Push only reviewed repository files, not the working folder containing secrets/environments. The root [README](../README.md) selects Gradio 6.29.1, Python 3.12.12 and [app.py](../app.py); [requirements.txt](../requirements.txt) supplies runtime dependencies. GitHub pushes do not automatically deploy to Hugging Face: publishing/synchronization is a separate step.
 
 Use an explicitly supported [ZeroGPU Python version](https://huggingface.co/docs/hub/spaces-zerogpu#supported-versions). Requesting 3.11 caused a fallback to 3.10.13 and NumPy installation failure. The supported 3.12.12 runtime preserves the project's Python 3.11 minimum and existing dependencies.
 
@@ -191,4 +191,14 @@ Before sharing a URL, verify startup/build logs, login, CSV loading, a small pai
 
 Neha owns business interpretation, sample checking and approval. Developers own provider credit/rate limits, schema compatibility, configuration and incidents. Validate a randomly sampled real cohort with Neha before relying on labels for vendor action; the discovery quality target has not been met by the provisional benchmark.
 
-There is no automatic publishing, product-page integration, persistent approval log, durable job queue, complete anonymization, account-wide spending control or proven return reduction. Regex masking is a secondary safeguard, not permission to upload PII. Confidence is model output, not measured accuracy. The 55%-Other run is now measured at its recorded 18-day settings; optional notes and 28-day full-profile evaluation are separate. Public deployment verification is in progress.
+There is no automatic publishing, product-page integration, persistent approval log, durable job queue, complete anonymization, account-wide spending control or proven return reduction. Regex masking is a secondary safeguard, not permission to upload PII. Confidence is model output, not measured accuracy. The 55%-Other run is measured at its recorded 18-day settings; optional notes and 28-day evaluation are separate. No working public deployment is verified yet.
+
+## Free Hosting Alternative
+
+[Render Free](https://render.com/docs/free) is the recommended fit for this MVP because it runs a persistent Python web service without rewriting Gradio. No GPU, new database or custom domain is needed. A free Render account and account verification are still required. Hosting within the free tier does not make OpenRouter calls free.
+
+Expected service configuration: Python 3.12.12, build `pip install -r requirements.txt`, start `python app.py`, instance **Free**. The app already binds `0.0.0.0` and reads Render's `PORT`. Use CSV mode and server secrets for `OPENROUTER_API_KEY`, `APP_USERNAME` and `APP_PASSWORD`; never upload local environment files. Connect the GitHub repository, but do not publish a Render URL until startup and the workflow are verified.
+
+Free instances have 512 MB RAM and limited CPU. The current local app's baseline is about 216 MB; full-run memory on Render remains untested. Services sleep after 15 minutes without inbound traffic and usually take about a minute to wake. Uploads, reports and sessions are lost on sleep/restart. Free hours, bandwidth/build quotas and unusual outbound traffic can lead to suspension. Do not treat this as production hosting or promise uninterrupted demos.
+
+Cloudflare Workers and Vercel are not the simplest drop-in choice for the existing stateful Gradio queue. Vercel Hobby functions have a five-minute maximum and 4.5 MB payload limit; Cloudflare's free Worker runtime has tight CPU/memory limits. Using either would require adapting the backend execution/state model rather than merely uploading this project.
